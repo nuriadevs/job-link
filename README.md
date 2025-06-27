@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Empleo Link
 
-## Getting Started
+  
 
-First, run the development server:
+¡Bienvenido a **Empleo Link**! Este proyecto es una plataforma web desarrollada con Next.js y Tailwind CSS que recopila y muestra portales de empleo, especialmente orientados a trabajo remoto y oportunidades internacionales.
+
+  
+
+## 🚀 Características principales
+
+  
+
+- Listado interactivo y filtrable de portales de empleo.
+
+- Diseño accesible y responsive optimizado para móviles y escritorio.
+
+- Modo claro/oscuro.
+  
+
+## 🛠️ Tecnologías utilizadas
+
+  
+
+- [Next.js](https://nextjs.org/) 15
+
+- [Tailwind CSS](https://tailwindcss.com/) 4
+
+- [React Icons](https://react-icons.github.io/react-icons/)
+  
+
+## 📦 Instalación y uso
+
+  
+
+1. Clona el repositorio:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+git clone https://github.com/nuriadevs/empleo-link.git
+
+cd empleo-link
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instala las dependencias:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm install
 
-## Learn More
+# o
 
-To learn more about Next.js, take a look at the following resources:
+yarn install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Inicia el servidor de desarrollo:
 
-## Deploy on Vercel
+```bash
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# o
+
+yarn dev
+
+```
+
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+
+  
+
+## 📁 Estructura del proyecto
+
+  
+
+-  `src/app/` — Rutas y layouts principales.
+
+-  `src/components/` — Componentes reutilizables (UI, layout, secciones).
+
+-  `src/constants/` — Constantes como enlaces sociales.
+
+-  `src/data/` — Datos estáticos de portales de empleo.
+
+-  `src/types/` — Tipos TypeScript para datos y entidades.
+
+-  `src/styles/` — Estilos globales y configuración Tailwind.
+
+  
+
+## ♿ Accesibilidad
+
+Este proyecto ha sido desarrollado poniendo especial atención en la accesibilidad, siguiendo buenas prácticas y recomendaciones para que cualquier persona pueda navegar y utilizar la web cómodamente, independientemente de sus capacidades o del dispositivo utilizado. Si encuentras algún fallo, házmelo saber por favor.
+
+  
+
+## 👩‍💻 Autora y contacto
+
+  
+
+Desarrollado por [Nuria Vázquez](https://linkedin.com/in/nuria-vazquez).
+ 
+
+## 🔗 Fuentes de URLs
+
+Este proyecto utiliza un archivo JSON que contiene URLs públicas de portales de empleo.
+
+Las URLs fueron recopiladas a partir de:
+
+- Mi propia búsqueda y manual de fuentes relevantes.
+- El repositorio [remote-es/remotes](https://github.com/remote-es/remotes), que recopila recursos y enlaces útiles para encontrar trabajo remoto en español.
+
+Agradezco a la comunidad de [remote-es](https://github.com/remote-es) por compartir estos recursos como parte del ecosistema open source. 🙌
+
+
+## 📄 Licencia
+
+ 
+---
+ 
+¡Gracias por visitar y contribuir! Si tienes sugerencias o encuentras algún problema, abre un issue o pull request.

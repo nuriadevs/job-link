@@ -368,7 +368,7 @@ export function JobSitesTable() {
                     const maxVisible = isMobile ? 3 : 5
                     const halfVisible = Math.floor(maxVisible / 2)
                     let startPage = Math.max(0, currentPage - halfVisible)
-                    let endPage = Math.min(totalPages, startPage + maxVisible)
+                    const endPage = Math.min(totalPages, startPage + maxVisible)
 
                     if (endPage - startPage < maxVisible) {
                       startPage = Math.max(0, endPage - maxVisible)

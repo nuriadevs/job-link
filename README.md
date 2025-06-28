@@ -26,6 +26,10 @@
 - [Tailwind CSS](https://tailwindcss.com/) 4
 
 - [React Icons](https://react-icons.github.io/react-icons/)
+
+- [Shadcn/ui](https://ui.shadcn.com/)
+
+- [Vercel] (https://vercel.com/)
   
 
 ## 📦 Instalación y uso
@@ -90,16 +94,9 @@ yarn dev
 
 ## ♿ Accesibilidad
 
-Este proyecto ha sido desarrollado poniendo especial atención en la accesibilidad, siguiendo buenas prácticas y recomendaciones para que cualquier persona pueda navegar y utilizar la web cómodamente, independientemente de sus capacidades o del dispositivo utilizado. Si encuentras algún fallo, házmelo saber por favor.
+Este proyecto ha sido desarrollado poniendo especial atención en la accesibilidad, siguiendo buenas prácticas y recomendaciones para que cualquier persona pueda navegar y utilizar la web cómodamente, independientemente de sus capacidades o del dispositivo utilizado. Si encuentras algún fallo o mejoría, házmelo saber por favor.
 
   
-
-## 👩‍💻 Autora y contacto
-
-  
-
-Desarrollado por [Nuria Vázquez](https://linkedin.com/in/nuria-vazquez).
- 
 
 ## 🔗 Fuentes de URLs
 
@@ -111,9 +108,6 @@ Las URLs fueron recopiladas a partir de:
 - El repositorio [remote-es/remotes](https://github.com/remote-es/remotes), que recopila recursos y enlaces útiles para encontrar trabajo remoto en español.
 
 Agradezco a la comunidad de [remote-es](https://github.com/remote-es) por compartir estos recursos como parte del ecosistema open source. 🙌
-
-
-## 📄 Licencia
 
  
 ---

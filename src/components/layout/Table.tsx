@@ -207,119 +207,73 @@ export function JobSitesTable() {
 
         {/* Tabla o Cards según el dispositivo */}
         <div className="relative">
-          {isMobile ? (
-            // Vista de Cards para móviles
-            <div className="divide-y divide-border/30">
-              {table.getRowModel().rows.length ? (
-                table.getRowModel().rows.map((row, index) => (
-                  <div
-                    key={row.id}
-                    className="p-4 hover:bg-muted/50 transition-colors duration-200
-                              animate-in fade-in slide-in-from-bottom-2"
-                    style={{ animationDelay: `${index * 50}ms` }}
+          {/* Vista de tabla para todos los dispositivos, con scroll horizontal en móvil */}
+          <div className="overflow-x-auto w-full">
+            <Table className="w-full min-w-[600px]">
+              <TableHeader>
+                {table.getHeaderGroups().map((headerGroup) => (
+                  <TableRow
+                    key={headerGroup.id}
+                    className="border-b border-border/30 hover:bg-muted/30"
                   >
-                    {row.getVisibleCells().map((cell) => {
-                      const header = cell.column.columnDef.header as string
-                      return (
-                        <div
-                          key={cell.id}
-                          className="flex justify-between items-center py-1"
-                        >
-                          <span className="font-medium text-sm text-muted-foreground">
-                            {header}:
-                          </span>
-                          <span className="text-sm text-foreground ml-2 text-right">
-                            {flexRender(
-                              cell.column.columnDef.cell,
-                              cell.getContext()
+                    {headerGroup.headers.map((header) => (
+                      <TableHead
+                        key={header.id}
+                        scope="col"
+                        className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-xs sm:text-sm md:text-base font-semibold text-muted-foreground whitespace-nowrap"
+                        aria-sort={header.column.getIsSorted ? (header.column.getIsSorted() === "asc" ? "ascending" : header.column.getIsSorted() === "desc" ? "descending" : "none") : undefined}
+                      >
+                        {header.isPlaceholder
+                          ? null
+                          : flexRender(
+                              header.column.columnDef.header,
+                              header.getContext()
                             )}
-                          </span>
-                        </div>
-                      )
-                    })}
-                  </div>
-                ))
-              ) : (
-                <div className="p-8 text-center text-muted-foreground">
-                  <div className="text-4xl mb-2">🔍</div>
-                  <p className="text-sm">No se encontraron resultados</p>
-                </div>
-              )}
-            </div>
-          ) : (
-            // Vista de tabla para pantallas grandes
-            <div className="overflow-x-auto">
-              <Table className="w-full">
-                <TableHeader>
-                  {table.getHeaderGroups().map((headerGroup) => (
+                      </TableHead>
+                    ))}
+                  </TableRow>
+                ))}
+              </TableHeader>
+              <TableBody>
+                {table.getRowModel().rows.length ? (
+                  table.getRowModel().rows.map((row, index) => (
                     <TableRow
-                      key={headerGroup.id}
-                      className="border-b border-border/30 hover:bg-muted/30"
+                      key={row.id}
+                      className="border-b border-border/20 hover:bg-muted/40 transition-colors duration-200 animate-in fade-in slide-in-from-bottom-1"
+                      style={{ animationDelay: `${index * 30}ms` }}
+                      tabIndex={0}
                     >
-                      {headerGroup.headers.map((header) => (
-                        <TableHead
-                          key={header.id}
-                          scope="col"
-                          className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-xs sm:text-sm md:text-base font-semibold text-muted-foreground whitespace-nowrap"
-                          aria-sort={header.column.getIsSorted ? (header.column.getIsSorted() === "asc" ? "ascending" : header.column.getIsSorted() === "desc" ? "descending" : "none") : undefined}
+                      {row.getVisibleCells().map((cell) => (
+                        <TableCell
+                          key={cell.id}
+                          className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-xs sm:text-sm md:text-base text-foreground whitespace-nowrap"
                         >
-                          {header.isPlaceholder
-                            ? null
-                            : flexRender(
-                                header.column.columnDef.header,
-                                header.getContext()
-                              )}
-                        </TableHead>
+                          {flexRender(
+                            cell.column.columnDef.cell,
+                            cell.getContext()
+                          )}
+                        </TableCell>
                       ))}
                     </TableRow>
-                  ))}
-                </TableHeader>
-                <TableBody>
-                  {table.getRowModel().rows.length ? (
-                    table.getRowModel().rows.map((row, index) => (
-                      <TableRow
-                        key={row.id}
-                        className="border-b border-border/20 hover:
-                                 hover:bg-muted/40 transition-colors duration-200
-                                 animate-in fade-in slide-in-from-bottom-1"
-                        style={{ animationDelay: `${index * 30}ms` }}
-                        tabIndex={0}
-                      >
-                        {row.getVisibleCells().map((cell) => (
-                          <TableCell
-                            key={cell.id}
-                            className="px-3 sm:px-4 md:px-6 
-                                     py-3 sm:py-4
-                                     text-xs sm:text-sm md:text-base
-                                     text-foreground"
-                          >
-                            {flexRender(
-                              cell.column.columnDef.cell,
-                              cell.getContext()
-                            )}
-                          </TableCell>
-                        ))}
-                      </TableRow>
-                    ))
-                  ) : (
-                    <TableRow>
-                      <TableCell
-                        colSpan={columns.length}
-                        className="h-32 text-center"
-                      >
-                        <div className="flex flex-col items-center justify-center text-muted-foreground">
-                          <div className="text-4xl mb-2">🔍</div>
-                          <p className="text-sm">
-                            No se encontraron resultados
-                          </p>
-                        </div>
-                      </TableCell>
-                    </TableRow>
-                  )}
-                </TableBody>
-              </Table>
-            </div>
-          )}
+                  ))
+                ) : (
+                  <TableRow>
+                    <TableCell
+                      colSpan={columns.length}
+                      className="h-32 text-center"
+                    >
+                      <div className="flex flex-col items-center justify-center text-muted-foreground">
+                        <div className="text-4xl mb-2">🔍</div>
+                        <p className="text-sm">
+                          No se encontraron resultados
+                        </p>
+                      </div>
+                    </TableCell>
+                  </TableRow>
+                )}
+              </TableBody>
+            </Table>
+          </div>
         </div>
 
         {/* Paginación mejorada */}

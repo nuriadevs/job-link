@@ -226,7 +226,7 @@
         {
           "id": 8,
           "name": "Ankorstore",
-          "url": "https://jobs.ashbyhq.com/ankorstore?locationId=394728f2-fded-4516-b066-49483d36d0da",
+          "url": "https://jobs.ashbyhq.com/ankorstore",
           "category": "remote",
           "country": "Spain",
           "description": "Ofrece trabajos remotos y contrata en España"
@@ -434,7 +434,7 @@
         {
           "id": 34,
           "name": "Capchase",
-          "url": "https://jobs.lever.co/capchase?commitment=Full%20-%20Time%20Remote&location=EU",
+          "url": "https://careers.employinc.com/search/jobs",
           "category": "remote",
           "country": "Spain",
           "description": "Ofrece trabajos remotos y contrata en España"
@@ -962,7 +962,7 @@
         {
           "id": 100,
           "name": "Globant",
-          "url": "https://career.globant.com/search/?optionsFacetsDD_country=ES",
+          "url": "https://career.globant.com/",
           "category": "remote",
           "country": "Spain",
           "description": "Las ofertas con 'Trabaja en la ciudad que quieras' son remotas."
@@ -970,7 +970,7 @@
         {
           "id": 101,
           "name": "Gofore",
-          "url": "https://gofore.com/en/careers",
+          "url": "https://gofore.com/en/https://gofore.com/en/careers/careers",
           "category": "remote",
           "country": "Spain",
           "description": "Viajes mensuales a Madrid, consulta las ofertas individuales para verificar si son remotas."
@@ -3058,7 +3058,7 @@
   "metadata": {
     "version": "1.0.0",
     "total_sites": 375,
-    "last_updated": "2025-06-21",
+    "last_updated": "2025-06-28",
     "categories": [
       "remote_jobs_with_Spanish_contracts",
       "freelance",

@@ -37,6 +37,7 @@ import {
 
 import jobData from "@/data/url.json"
 import type { JobSite } from "@/types/job-types"
+import { capitalizePhrase } from "@/lib/utils"
 
 // Extrae y aplana todos los sitios desde jobData
 const sites: JobSite[] = Object.values(jobData.job_boards).flatMap(
@@ -50,7 +51,13 @@ const columns: ColumnDef<JobSite>[] = [
     header: ({ column }) => (
       <Button
         variant="ghost"
-        aria-sort={column.getIsSorted() ? (column.getIsSorted() === "asc" ? "ascending" : "descending") : "none"}
+        aria-sort={
+          column.getIsSorted()
+            ? column.getIsSorted() === "asc"
+              ? "ascending"
+              : "descending"
+            : "none"
+        }
         onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
       >
         Nombre <ArrowUpDown className="ml-2 h-4 w-4" />
@@ -80,7 +87,13 @@ const columns: ColumnDef<JobSite>[] = [
     header: ({ column }) => (
       <Button
         variant="ghost"
-        aria-sort={column.getIsSorted() ? (column.getIsSorted() === "asc" ? "ascending" : "descending") : "none"}
+        aria-sort={
+          column.getIsSorted()
+            ? column.getIsSorted() === "asc"
+              ? "ascending"
+              : "descending"
+            : "none"
+        }
         onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
       >
         Categoría <ArrowUpDown className="ml-2 h-4 w-4" />
@@ -95,7 +108,13 @@ const columns: ColumnDef<JobSite>[] = [
     header: ({ column }) => (
       <Button
         variant="ghost"
-        aria-sort={column.getIsSorted() ? (column.getIsSorted() === "asc" ? "ascending" : "descending") : "none"}
+        aria-sort={
+          column.getIsSorted()
+            ? column.getIsSorted() === "asc"
+              ? "ascending"
+              : "descending"
+            : "none"
+        }
         onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
       >
         Ubicación <ArrowUpDown className="ml-2 h-4 w-4" />
@@ -110,14 +129,22 @@ const columns: ColumnDef<JobSite>[] = [
     header: ({ column }) => (
       <Button
         variant="ghost"
-        aria-sort={column.getIsSorted() ? (column.getIsSorted() === "asc" ? "ascending" : "descending") : "none"}
+        aria-sort={
+          column.getIsSorted()
+            ? column.getIsSorted() === "asc"
+              ? "ascending"
+              : "descending"
+            : "none"
+        }
         onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
       >
         Descripción <ArrowUpDown className="ml-2 h-4 w-4" />
       </Button>
     ),
     cell: ({ row }) => (
-      <div className="font-medium capitalize">{row.getValue("description")}</div>
+      <div className="font-medium">
+        {capitalizePhrase(row.getValue("description") as string)}
+      </div>
     ),
   },
 ]
@@ -174,7 +201,7 @@ export function JobSitesTable() {
                         bg-muted/30"
         >
           <div
-            className="flex flex-col xs:flex-row gap-3 xs:gap-4 
+            className="flex flex-row items-center xs:flex-row gap-3 xs:gap-4 
                           xs:items-center xs:justify-between"
           >
             <div className="flex-1 max-w-sm">
@@ -183,7 +210,7 @@ export function JobSitesTable() {
               </label>
               <Input
                 id="filter-name"
-                placeholder="🔍 Buscar portal..."
+                placeholder="🔍 Escribe el nombre de la web..."
                 value={
                   (table.getColumn("name")?.getFilterValue() as string) ?? ""
                 }
@@ -221,7 +248,15 @@ export function JobSitesTable() {
                         key={header.id}
                         scope="col"
                         className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-xs sm:text-sm md:text-base font-semibold text-muted-foreground whitespace-nowrap"
-                        aria-sort={header.column.getIsSorted ? (header.column.getIsSorted() === "asc" ? "ascending" : header.column.getIsSorted() === "desc" ? "descending" : "none") : undefined}
+                        aria-sort={
+                          header.column.getIsSorted
+                            ? header.column.getIsSorted() === "asc"
+                              ? "ascending"
+                              : header.column.getIsSorted() === "desc"
+                              ? "descending"
+                              : "none"
+                            : undefined
+                        }
                       >
                         {header.isPlaceholder
                           ? null
@@ -264,9 +299,7 @@ export function JobSitesTable() {
                     >
                       <div className="flex flex-col items-center justify-center text-muted-foreground">
                         <div className="text-4xl mb-2">🔍</div>
-                        <p className="text-sm">
-                          No se encontraron resultados
-                        </p>
+                        <p className="text-sm">No se encontraron resultados</p>
                       </div>
                     </TableCell>
                   </TableRow>
@@ -298,7 +331,7 @@ export function JobSitesTable() {
                 aria-label="Navegación de páginas"
                 className="py-2 sm:py-4 flex justify-center"
               >
-                <PaginationContent >
+                <PaginationContent>
                   <PaginationItem>
                     <PaginationPrevious
                       href="#"
@@ -370,11 +403,7 @@ export function JobSitesTable() {
                             }}
                             className={`
                               transition-all duration-200
-                              ${
-                                i === currentPage
-                                  ? "bg-primary"
-                                  : ""
-                              }`}
+                              ${i === currentPage ? "bg-primary" : ""}`}
                             aria-label={`${
                               i === currentPage ? "Página actual, " : ""
                             }Página ${i + 1}`}

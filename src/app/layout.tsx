@@ -16,12 +16,21 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Portales de Emleo", 
+  title: "Empleo Link - Oportunidades Tech en un Solo Lugar",
   description:
-    "Encuentra las mejores oportunidades laborales en un solo lugar",
-  keywords: ["empleo", "remoto", "portales de empleo", "oportunidades laborales", "trabajo remoto", "freelance"],
+    "Descubre las mejores oportunidades laborales tech en un solo lugar. Encuentra trabajo en desarrollo, diseño, marketing digital y más.",
+  keywords: [
+    "empleo tech",
+    "trabajo tecnología",
+    "ofertas desarrollo",
+    "empleo programador",
+    "trabajo remoto tech",
+    "oportunidades laborales",
+    "empleo junior",
+    "trabajo senior developer",
+  ],
   authors: [{ name: "Nuria Vázquez" }],
-  creator: "Nuria Vázquez"
+  creator: "Nuria Vázquez",
 }
 
 export default function RootLayout({
@@ -42,9 +51,7 @@ export default function RootLayout({
         >
           <Header />
           <div className="flex flex-col min-h-screen w-full max-w-screen-3xl mx-auto overflow-x-hidden">
-            <main className="flex-1 w-full">
-              {children}
-            </main>
+            <main className="flex-1 w-full">{children}</main>
             <Footer />
           </div>
         </ThemeProvider>

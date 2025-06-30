@@ -31,6 +31,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Nuria Vázquez" }],
   creator: "Nuria Vázquez",
+
+  /**
+   * Open Graph metadata para mejorar la visibilidad en redes sociales (proximamente)
+   */
+   
 }
 
 export default function RootLayout({

@@ -11,15 +11,12 @@ export default function HeroSection() {
                  "
       aria-label="Tabla de portales de empleo"
     >
-      {/* Título optimizado para SEO y accesibilidad */}
-      <div className="text-center mb-4 sm:mb-6 md:mb-8 w-full max-w-4xl">
-        <h1 className="text-lg xs:text-xl sm:text-xl md:text-2xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto
+      <div className="text-center mb-4 sm:mb-6 md:mb-8 w-full">
+        <h1 className="text-lg xs:text-xl sm:text-xl md:text-2xl lg:text-3xl mx-auto
                       animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-200">
-          Descubre las mejores oportunidades laborales <span className='font-bold italic'>tech</span> en un solo lugar
+          Descubre las mejores oportunidades laborales <span className='font-bold italic text-[#0097b2]'>tech</span> en un solo lugar
         </h1>
       </div>
-      
-      
       {/* Tabla con contenedor responsivo */}
       <div className="w-full mx-auto">
         <JobSitesTable />

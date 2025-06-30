@@ -1,11 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-/*@import "tailwindcss/preflight.css" layer(base);*/
-
-/*  --font-display: "Montserrat", sans-serif; */
-
-/*@custom-variant dark (&:is(.dark *));*/
 
 @theme inline {
   --color-background: var(--background);
@@ -48,11 +43,10 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-/*   --icon-size: 1.25rem;  */
-
 :root {
   --footer-icon-size: 1.25rem; /* 20px móvil */
   --footer-icon-hover: oklch(0.7 0 0); 
+  --tech--color: oklch(0.6656 0.1219 226.78);
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);

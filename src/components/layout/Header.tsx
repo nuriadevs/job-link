@@ -23,13 +23,21 @@ export function Header() {
                         py-3 sm:py-4 md:py-5"
         >
           {/* Título principal - Adaptativo */}
-          <div className="flex-1">
+          <div className="flex-1 flex items-center space-x-2 sm:space-x-5">
+            <img
+              src="/logo.svg"
+              alt="EmpleoLink Logo"
+              className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 
+                           transition-all duration-300 hover:drop-shadow-lg
+                           dark:brightness-110"
+            />
+
             <h1
               className="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl 
                        font-bold text-left"
-              aria-label="Portales de Empleo"
+              aria-label="EmpleoLink"
             >
-              <span className="">Portales de Empleo</span>
+              <span className="">EmpleoLink</span>
             </h1>
           </div>
           {/* Controles de la derecha */}

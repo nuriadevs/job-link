@@ -1,4 +1,4 @@
-![Logo empleo link](public/images/logo.svg)
+![Logo empleo link](public/images/logo.svg){width=150px}
 
 # Empleo Link
 

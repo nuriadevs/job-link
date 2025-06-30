@@ -1,4 +1,4 @@
-![Logo empleo link](public/images/logo.svg){width=150px}
+<img src="public/images/logo.svg" alt="Logo empleo link" width="120" height="120">
 
 # Empleo Link
 

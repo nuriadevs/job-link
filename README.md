@@ -13,7 +13,7 @@ Este proyecto nace de la necesidad de ayudar a developers, diseñadores y profes
 
 ## 🎯 ¿Qué encontrarás aquí?
 
--   🔗  **Webs con ofertas ** en empleos tech, creativos y digitales
+-   🔗  **Webs con ofertas** en empleos tech, creativos y digitales
 -   📊 **Recursos actualizados** sobre el mercado laboral
 -   🌍 **Oportunidades remotas** y presenciales
 

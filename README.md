@@ -1,138 +1,103 @@
-<img src="public/images/logo.svg" alt="Logo empleo link" width="120" height="120">
+<img  src="public/images/logo.svg"  alt="Logo empleo link"  width="120"  height="120">
 
-# Empleo Link
+# EmpleoLink
 
+> 🚀 **Compartiendo recursos para la comunidad tech**
 
-¡Bienvenido a **Empleo Link**! Este proyecto es una plataforma web desarrollada con Next.js y Tailwind CSS que recopila y muestra portales de empleo, especialmente orientados a trabajo remoto y oportunidades internacionales.
-
-
-## 🚀 Características principales
-
-- Listado interactivo y filtrable de portales de empleo.
-
-- Diseño accesible y responsive optimizado para móviles y escritorio.
-
-- Modo claro/oscuro.
-
-## 🛠️ Tecnologías utilizadas
+Este proyecto nace de la necesidad de ayudar a developers, diseñadores y profesionales tech como yo a encontrar oportunidades laborales y entender mejor el mercado actual.
 
 
-- [Next.js](https://nextjs.org/) 15
-- [Tailwind CSS](https://tailwindcss.com/) 4
-- [React Icons](https://react-icons.github.io/react-icons/)
-- [Shadcn/ui](https://ui.shadcn.com/)
-- [Vercel](https://vercel.com/)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge)](https://tu-empleo-link.vercel.app/) [![Next.js](https://img.shields.io/badge/Next.js-15-blue?style=for-the-badge&logo=next.js)](https://nextjs.org/) [![Tailwind](https://img.shields.io/badge/Tailwind-4-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
+
+----------
+
+## 🎯 ¿Qué encontrarás aquí?
+
+-   🔗  **Webs con ofertas ** en empleos tech, creativos y digitales
+-   📊 **Recursos actualizados** sobre el mercado laboral
+-   🌍 **Oportunidades remotas** y presenciales
 
 
-  
 
-## 📦 Instalación y uso
+## 🚀 Demo
 
- 
-1. Clona el repositorio:
+Visita [EmpleoLink](https://empleo-link.vercel.app/) para ver el proyecto en vivo.
 
-  
+## ✨ Características
+
+-   **📱 Responsive Design**: Para móvil, tablet y desktop.
+-   **🌙 Dark/Light Mode**: Cambia entre temas según tu preferencia.
+-   **⚡ Performance**: Carga rápida con Next.js 15.
+-   **🎨 UI **: Diseño con Tailwind CSS 4
+-   **♿ Accesible**: Etiquetas de accesibilidad web
+
+## 🛠️ Stack Tecnológico
+
+-   **Framework**: [Next.js](https://nextjs.org/) 15
+-   **Estilo**: [Tailwind CSS](https://tailwindcss.com/) 4
+-   **UI Components**: [Shadcn/ui](https://ui.shadcn.com/)
+-   **Deploy**: [Vercel](https://vercel.com/)
+-   **Data**: JSON 
+
+## 📦 Instalación
 
 ```bash
+# Clona el repositorio
 git  clone  https://github.com/nuriadevs/empleo-link.git
+
+# Navega al directorio
 cd  empleo-link
+
+# Instala dependencias
+npm install
+
+# Ejecuta en desarrollo
+npm run dev
+
+# Abre http://localhost:3000 en tu navegador
+
 ```
 
-  
-
-2. Instala las dependencias:
-
-  
-
-```bash
-npm  install
-# o
-yarn  install
-```
-3. Inicia el servidor de desarrollo:
-
-```bash
-npm  run  dev
-# o
-yarn  dev
-```
-
-  
-
-4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
-
-  
-
-  
-
-## 📁 Estructura del proyecto
-
-  
-
-  
-
--  `src/app/` — Rutas y layouts principales.
-
-  
-
--  `src/components/` — Componentes reutilizables (UI, layout, secciones).
-
-  
-
--  `src/constants/` — Constantes como enlaces sociales.
-
-  
-
--  `src/data/` — Datos estáticos de portales de empleo.
-
-  
-
--  `src/types/` — Tipos TypeScript para datos y entidades.
-
-  
-
--  `src/styles/` — Estilos globales y configuración Tailwind.
-
-  
-
-  
-
-## ♿ Accesibilidad
-
-  
-
-Este proyecto ha sido desarrollado poniendo especial atención en la accesibilidad, siguiendo buenas prácticas y recomendaciones para que cualquier persona pueda navegar y utilizar la web cómodamente, independientemente de sus capacidades o del dispositivo utilizado. Si encuentras algún fallo o mejoría, házmelo saber por favor.
-
-  
-
-  
-
-## 🔗 Fuentes de URLs
-
-  
-
-Este proyecto utiliza un archivo JSON que contiene URLs públicas de portales de empleo.
-
-  
-
-Las URLs fueron recopiladas a partir de:
-
-  
-
-- Mi propia búsqueda manual de fuentes relevantes.
-
-- El repositorio [remote-es/remotes](https://github.com/remote-es/remotes), que recopila recursos y enlaces útiles para encontrar trabajo remoto en español.
-
-  
-
-Agradezco a la comunidad de [remote-es](https://github.com/remote-es) por compartir estos recursos como parte del ecosistema open source. 🙌
-
-  
-## 🔄 Actualización 
+## 🔄 Actualización
 
 Actualizo este proyecto regularmente con mejoras en enlaces, nuevas funciones o ajustes visuales en la interfaz.
 
-📝 ¿Tienes sugerencias, URLs útiles o encontraste algún error?  
+## 🌱 ¿Quieres contribuir?
 
-🙌 ¡Gracias por visitarlo!
+#### 📝 ¿Cómo añadir una nueva plataforma?
 
+En el archivo JSON los sites siguen esta estructura:
+
+```json
+{
+"id": 1,
+"name": "Nombre de la web",
+"url": "https://ejemplo.com",
+"category": ["remote",  "tech",  "creative"]
+"location": "Global/España/Específico",
+"description": "Descripción breve"
+}
+
+```
+
+-   📝 **Abre un issue** para sugerir mejoras
+-   🔧 **Envía un PR** con nuevas funcionalidades
+-   📢 **Comparte** el proyecto en redes sociales
+
+## 🤝 Contacto
+
+Si tienes preguntas, sugerencias o simplemente quieres charlar sobre el proyecto, enviáme un mensaje.
+
+
+
+----------
+
+
+
+**Hecho con ❤️ para la comunidad tech**
+
+_Si este recurso te ayuda a encontrar tu próxima oportunidad, ya cumplió su propósito._
+
+----------
+
+⭐ **¿Te gustó el proyecto? ¡Dale una estrella!** ⭐

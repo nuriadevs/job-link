@@ -10,104 +10,104 @@
           "id": 1,
           "name": "RemoteOK",
           "url": "https://remoteok.com/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Plataforma líder para trabajos remotos"
         },
         {
           "id": 2,
           "name": "Remote First Digital",
           "url": "https://remotefirst.digital/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Trabajos remotos para empresas digitales"
         },
         {
           "id": 3,
           "name": "WeWorkRemotely",
           "url": "https://weworkremotely.com/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Una de las mayores comunidades de trabajo remoto"
         },
         {
           "id": 4,
           "name": "JustRemote",
           "url": "https://justremote.co/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Plataforma especializada en trabajos remotos"
         },
         {
           "id": 5,
           "name": "FlexJobs",
           "url": "https://www.flexjobs.com/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Trabajos flexibles y remotos verificados"
         },
         {
           "id": 6,
           "name": "Remote.co",
           "url": "https://remote.co/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Directorio de trabajos remotos"
         },
         {
           "id": 7,
           "name": "Remote.com",
           "url": "https://remote.com/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Plataforma global de trabajo remoto"
         },
         {
           "id": 8,
           "name": "RemoteWorkMate",
           "url": "https://remoteworkmate.com/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Conecta empresas con trabajadores remotos"
         },
         {
           "id": 9,
           "name": "Remotive",
           "url": "https://remotive.com/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Newsletter y jobs board de trabajos remotos"
         },
         {
           "id": 10,
           "name": "Working Nomads",
           "url": "https://www.workingnomads.com/jobs",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Trabajos para nómadas digitales"
         },
         {
           "id": 11,
           "name": "Virtual Vocations",
           "url": "https://www.virtualvocations.com/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Trabajos virtuales y remotos"
         },
         {
           "id": 12,
           "name": "Skip The Drive",
           "url": "https://www.skipthedrive.com/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Trabajos remotos sin desplazamientos"
         },
         {
           "id": 13,
           "name": "Remote Work Hub",
           "url": "https://remoteworkhub.com/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Hub de trabajos remotos"
         },
 
@@ -115,24 +115,24 @@
           "id": 14,
           "name": "Pangian",
           "url": "https://pangian.com/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Red global de profesionales remotos"
         },
         {
           "id": 15,
           "name": "Jobicy",
           "url": "https://jobicy.com/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Trabajos remotos por categorías"
         },
         {
           "id": 16,
           "name": "NoDesk",
           "url": "https://nodesk.co/remote-jobs/",
-          "category": "remote",
-          "country": "international",
+          "category":"remoto",
+          "location": "internacional",
           "description": "Recursos y trabajos para trabajadores remotos"
         },
 
@@ -140,16 +140,16 @@
           "id": 17,
           "name": "Jobgether",
           "url": "https://jobgether.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Plataformas que publican ofertas de empleo remoto de empresas internacionales o españolas."
         },
         {
           "id": 18,
           "name": "levels.fyi",
           "url": "https://www.levels.fyi/jobs/location/spain?locationSlug=spain",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Plataformas que publican ofertas de empleo remoto de empresas internacionales o españolas."
         },
         {
@@ -157,7 +157,7 @@
           "name": "We Are Hiring",
           "url": "https://www.wearehiring.io/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal de empleos moderno"
         }
       ]
@@ -171,2208 +171,2208 @@
           "id": 1,
           "name": "11Onze",
           "url": "https://11onze.breezy.hr/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 2,
           "name": "ABA English",
           "url": "https://aba-english.factorialhr.es/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 3,
           "name": "Affirm",
           "url": "https://boards.greenhouse.io/affirm/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 4,
           "name": "Akamai",
           "url": "https://akamaicareers.inflightcloud.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 5,
           "name": "Alan",
           "url": "https://alan.com/en/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 6,
           "name": "Alguna",
           "url": "https://www.alguna.io/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 7,
           "name": "Alhona",
           "url": "https://www.linkedin.com/company/alhona-smart-industry/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 8,
           "name": "Ankorstore",
           "url": "https://jobs.ashbyhq.com/ankorstore",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 9,
           "name": "Apiumhub",
           "url": "https://careers.apiumhub.com/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 10,
           "name": "APIUX",
           "url": "https://www.linkedin.com/company/api-ux/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 11,
           "name": "Aplanet",
           "url": "https://aplanet.org/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 12,
           "name": "Aplazame",
           "url": "https://www.linkedin.com/company/aplazame/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 13,
           "name": "Appwrite",
           "url": "https://appwrite.io/company/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 14,
           "name": "Aratech",
           "url": "https://aratech.viterbit.site/#jobs-OUTc",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 15,
           "name": "AREX Markets",
           "url": "https://apply.workable.com/arex/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 16,
           "name": "AtomicJar",
           "url": "https://www.atomicjar.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 17,
           "name": "Audiense",
           "url": "http://aboutus.audiense.com/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 18,
           "name": "Automattic",
           "url": "https://automattic.com/work-with-us/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 19,
           "name": "Bankflip",
           "url": "https://www.linkedin.com/company/bankflip/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 20,
           "name": "BCNC Group",
           "url": "https://www.linkedin.com/company/bcncgroup/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 21,
           "name": "BeBanjo",
           "url": "https://bebanjo.com/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 22,
           "name": "Belvo",
           "url": "https://angel.co/company/belvo/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 23,
           "name": "BestSecret",
           "url": "https://jobs.bestsecret.com/en/jobs.html?location=Granada",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 24,
           "name": "Big Blue Analytics",
           "url": "https://bigblueanalytics.com/hiring/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 25,
           "name": "Blacklane",
           "url": "https://boards.greenhouse.io/blacklane",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 26,
           "name": "BMAT",
           "url": "https://www.bmat.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 27,
           "name": "Boats Group",
           "url": "https://www.boatsgroup.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 28,
           "name": "Booksy",
           "url": "https://apply.workable.com/booksy-1/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 29,
           "name": "Brainly",
           "url": "https://careers.brainly.com/open-positions/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 30,
           "name": "Bravo Studio",
           "url": "https://www.bravostudio.app/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 31,
           "name": "BRYTER",
           "url": "https://bryter.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 32,
           "name": "Cabify",
           "url": "https://cabify.com/es/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 33,
           "name": "Camaloon",
           "url": "https://careers.camaloon.com/jobs?remote_status_id=fully&query=",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 34,
           "name": "Capchase",
           "url": "https://careers.employinc.com/search/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 35,
           "name": "Canonical",
           "url": "https://canonical.com/careers/all?location=emea",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 36,
           "name": "CARTO",
           "url": "https://carto.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 37,
           "name": "cdmon",
           "url": "https://www.cdmon.com/en/about-us/work-with-us",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 38,
           "name": "Chartboost",
           "url": "https://boards.greenhouse.io/chartboost",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 39,
           "name": "Chess.com",
           "url": "https://www.chess.com/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 40,
           "name": "Ciklum",
-          "url": "https://jobs.ciklum.com/jobs/?country=spain&working_type=Remote",
-          "category": "remote",
-          "country": "Spain",
+          "url": "https://jobs.ciklum.com/jobs/?location=spain&working_type=Remote",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 41,
           "name": "Circle",
           "url": "https://circle.so/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 42,
           "name": "CitNOW",
           "url": "https://www.citnowgroup.com/careers/vacancies/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 43,
           "name": "Civo",
           "url": "https://careers.civo.com/jobs?remote_status_id=fully&query=",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 44,
           "name": "Clarity AI",
           "url": "https://apply.workable.com/clarity-ai/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 45,
           "name": "Clarivate",
           "url": "https://www.linkedin.com/jobs/search/?keywords=clarivate",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 46,
           "name": "Clidrive",
           "url": "https://clidrive.jobs.personio.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 47,
           "name": "Cloudbees",
           "url": "https://www.cloudbees.com/careers/job",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 48,
           "name": "Clovr Labs",
           "url": "https://clovrlabs.teamtailor.com/#section-jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 49,
           "name": "Cobee",
           "url": "https://cobee.teamtailor.com/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 50,
           "name": "Codeworks",
           "url": "https://www.linkedin.com/school/codeworks/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 51,
           "name": "codi cooperatiu",
           "url": "https://codi.coop/en/about-us/busquem-socies/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 52,
           "name": "Codurance",
           "url": "https://www.codurance.com/careers/current-roles?hsCtaTracking=fd7530a4-dec7-4756-a255-81b5624a506b%7Ca53de7f3-e646-4f7b-997a-28f786445c95",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "View individual job offers to check for remote, core office hours/overlap between 10:00 and 17:00 CEST"
         },
         {
           "id": 53,
           "name": "Colvin",
           "url": "https://www.linkedin.com/company/colvin/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 54,
           "name": "Confluent",
           "url": "https://www.confluent.io/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 55,
           "name": "Coopdevs",
           "url": "https://odoo.coopdevs.org/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 56,
           "name": "Copado",
           "url": "https://www.copado.com/careers/#openpositions",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 57,
           "name": "Cosuno",
           "url": "https://www.cosuno.com/company#careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 58,
           "name": "Crisis Text Line",
           "url": "https://boards.greenhouse.io/crisistextline86",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 59,
           "name": "Damavis",
           "url": "https://damavis.com/es/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 60,
           "name": "damecode",
           "url": "https://www.linkedin.com/company/damecode/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 61,
           "name": "Datadog",
           "url": "https://www.datadoghq.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 62,
           "name": "DealDash",
           "url": "https://www.linkedin.com/company/dealdash/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Listado: Finlandia. Verifica en cada oferta si es remota."
         },
         {
           "id": 63,
           "name": "Devo",
           "url": "https://www.devo.com/careers/open-positions/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Todas las posiciones remotas son en España"
         },
         {
           "id": 64,
           "name": "dLocal",
           "url": "https://jobs.lever.co/dlocal?location=Spain%20%28Remote%29",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 65,
           "name": "Docker",
           "url": "https://www.docker.com/career-openings/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 66,
           "name": "DocPlanner",
           "url": "https://www.docplanner.com/career",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 67,
           "name": "Dragonfly",
           "url": "https://www.wearedragonfly.co/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 68,
           "name": "Ebury",
           "url": "https://careers.ebury.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 69,
           "name": "Eclipse Foundation",
           "url": "https://eclipsefoundation.applytojob.com/apply",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 70,
           "name": "Edge Impulse",
           "url": "https://www.edgeimpulse.com/careers#open-roles",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 71,
           "name": "Edpuzzle",
           "url": "https://jobs.lever.co/edpuzzle",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 72,
           "name": "Elastic",
           "url": "https://www.elastic.co/about/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 73,
           "name": "Element",
           "url": "https://element.io/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 74,
           "name": "Empathy.co",
           "url": "https://www.empathy.co/company/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 75,
           "name": "Ensemble IP",
           "url": "https://ensembleip.bamboohr.com/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 76,
           "name": "envelio",
           "url": "https://envelio.com/career#jobs-en",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 77,
           "name": "Eugen",
           "url": "https://www.linkedin.com/company/eugen-solutions/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 78,
           "name": "ExpressVPN",
           "url": "https://www.expressvpn.com/jobs/job-openings",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 79,
           "name": "Eyeseetea",
           "url": "https://eyeseetea.com/eyeseetea-careers-open-positions/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 80,
           "name": "Eventbrite",
-          "url": "https://www.eventbritecareers.com/jobs/search?page=1&country_codes%5B%5D=ES&cities%5B%5D=Remote&query=",
-          "category": "remote",
-          "country": "Spain",
+          "url": "https://www.eventbritecareers.com/jobs/search?page=1&location_codes%5B%5D=ES&cities%5B%5D=Remote&query=",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 81,
           "name": "Exoticca",
           "url": "https://apply.workable.com/exoticca/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 82,
           "name": "Factorial",
           "url": "https://factorialhr.com/join-factorial",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 83,
           "name": "Fastly",
           "url": "https://www.fastly.com/about/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 84,
           "name": "FCM Lab",
           "url": "https://fcm-business-travel-lab-sl.factorialhr.es/#jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Consulta las ofertas individuales para verificar si son remotas."
         },
         {
           "id": 85,
           "name": "Fever",
           "url": "https://careers.feverup.com/apply",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 86,
           "name": "Flywire",
           "url": "https://www.flywire.com/company/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 87,
           "name": "ForceManager",
           "url": "https://forcemanager.bamboohr.com/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 88,
           "name": "Form3",
           "url": "https://form3.tech/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 89,
           "name": "fotograf.de",
           "url": "https://angel.co/company/fotograf-de-1/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 90,
           "name": "FoshTech",
           "url": "https://foshtech.jobs.personio.de/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 91,
           "name": "FounderNest",
           "url": "https://careers.foundernest.com/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 92,
           "name": "Fresco",
           "url": "https://frescocooks.com/careers#open-jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 93,
           "name": "Frogtek",
           "url": "https://developing.frogtek.org/trabaja-con-nosotros/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 94,
           "name": "Genially",
           "url": "https://genial.ly/es/unete-al-equipo/#wearehiring",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Todas las ofertas son remotas"
         },
         {
           "id": 95,
           "name": "Genie",
           "url": "https://www.linkedin.com/company/geniecorp/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 96,
           "name": "Giant Swarm",
           "url": "https://www.giantswarm.io/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 97,
           "name": "GiG",
           "url": "https://apply.workable.com/gig-6/#jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 98,
           "name": "Gigson Solutions",
           "url": "https://www.linkedin.com/company/gigson-solutions/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 99,
           "name": "GitHub",
           "url": "https://github.com/about/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 100,
           "name": "Globant",
           "url": "https://career.globant.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Las ofertas con 'Trabaja en la ciudad que quieras' son remotas."
         },
         {
           "id": 101,
           "name": "Gofore",
           "url": "https://gofore.com/en/https://gofore.com/en/careers/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Viajes mensuales a Madrid, consulta las ofertas individuales para verificar si son remotas."
         },
         {
           "id": 102,
           "name": "GoTrendier",
           "url": "https://gotrendier.notion.site/Te-gustar-a-trabajar-en-GoTrendier-7d5199e5dcb348b4af2f61ddad2d73bf",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 103,
           "name": "Grafana",
           "url": "https://grafana.com/about/careers/open-positions/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 104,
           "name": "Habitissimo",
           "url": "https://www.linkedin.com/company/habitissimo/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 105,
           "name": "haddock",
           "url": "https://jobs.haddock.app/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 106,
           "name": "Hakuna",
           "url": "https://hakuna.jobs.personio.de/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 107,
           "name": "HelloBetter",
           "url": "https://geton.jobs.personio.de/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 108,
           "name": "HolidayPirates",
           "url": "https://holidaypirates.jobs.personio.de/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 109,
           "name": "Hotjar",
           "url": "https://careers.hotjar.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 110,
           "name": "HUBUC",
           "url": "https://careers.hubuc.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 111,
           "name": "humanITcare",
           "url": "https://www.linkedin.com/company/humanitcare/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 112,
           "name": "Idoven",
           "url": "https://apply.workable.com/idoven/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 113,
           "name": "ifeel",
           "url": "https://www.linkedin.com/company/ifeelonline/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 114,
           "name": "Igalia",
           "url": "https://www.igalia.com/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 115,
           "name": "Immfly",
           "url": "https://immfly.viterbit.site/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 116,
           "name": "ING",
           "url": "https://www.ing.jobs/Espana/Home.htm",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 117,
           "name": "Intellias",
           "url": "https://career.intellias.com/?filter=spain%20(remote)",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 118,
           "name": "Intelygenz",
           "url": "https://intelygenz.com/join-us/#careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 119,
           "name": "Iomob",
           "url": "https://angel.co/company/iomob/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 120,
           "name": "jobandtalent",
           "url": "https://jobandtalent.bamboohr.com/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 121,
           "name": "Jotelulu",
           "url": "https://www.linkedin.com/company/jotelulu/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 122,
           "name": "JW Player",
           "url": "https://jwplayer.com/careers/job-openings/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 123,
           "name": "Kahoot!",
           "url": "https://apply.workable.com/kahoot/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 124,
           "name": "Kariboo",
           "url": "https://www.kariboo.io/es/trabaja-con-nosotros",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 125,
           "name": "Keedio",
           "url": "https://www.linkedin.com/company/keedio/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 126,
           "name": "Kelea",
           "url": "https://kelea.viterbit.site/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 127,
           "name": "Knack",
           "url": "https://knack.pinpointhq.com/en?location_id=%5B9300%5D",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 128,
           "name": "Kodify",
           "url": "https://kodify.recruitee.com/#section-26652",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 129,
           "name": "LambdaLoopers",
           "url": "https://www.linkedin.com/company/lambdaloopers/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 130,
           "name": "Lana",
           "url": "https://boards.greenhouse.io/lana/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 131,
           "name": "Landbot",
           "url": "https://jobs.landbot.io/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 132,
           "name": "Lang.ai",
           "url": "https://www.linkedin.com/company/lang-ai/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 133,
           "name": "LanguageWire",
           "url": "https://apply.workable.com/languagewire/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 134,
           "name": "Launchmetrics",
           "url": "https://careers.launchmetrics.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 135,
           "name": "Laude",
           "url": "https://jobs.laude.tech/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 136,
           "name": "Leadtech",
           "url": "https://leadtech.com/work-with-us",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 137,
           "name": "Less Than Three",
           "url": "https://www.linkedin.com/company/less-than-three/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 138,
           "name": "Líbere",
           "url": "https://liberetech.com/#open-positions",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 139,
           "name": "Liferay",
           "url": "https://jobs.jobvite.com/liferay/search?q=&r=&l=Remote%20-%20Spain&c=",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 140,
           "name": "LIFULL Connect",
           "url": "https://www.lifullconnect.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 141,
           "name": "Lightbend",
           "url": "https://www.lightbend.com/company/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 142,
           "name": "Lingokids",
           "url": "https://jobs.lingokids.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 143,
           "name": "Linux Foundation",
           "url": "https://www.linuxfoundation.org/careers#positions",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 144,
           "name": "Learnlife",
           "url": "https://learnlife.com/work-with-us",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 145,
           "name": "Localistico",
           "url": "https://angel.co/company/localistico",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 146,
           "name": "mailSuite",
           "url": "https://mailsuite.com/blog/tag/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 147,
           "name": "maisa",
           "url": "https://maisa.ai/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 148,
           "name": "marsbased",
           "url": "https://marsbased.com/es/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 149,
           "name": "Matchday",
           "url": "https://matchday.notion.site/Careers-Matchday-91ca424701e446bf825c05388d638340",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 150,
           "name": "maze",
           "url": "https://jobs.ashbyhq.com/mazedesign?locationId=1553eb2e-0d49-4722-8bc6-7a850ce5d98b",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 151,
           "name": "mediasmart",
           "url": "https://job-boards.greenhouse.io/mediasmart",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 152,
           "name": "meta",
           "url": "https://www.facebookcareers.com/jobs/?offices[0]=Remote%2C%20Spain",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 153,
           "name": "Mitek",
           "url": "https://jobs.lever.co/miteksystems-2",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 154,
           "name": "Mixmax",
           "url": "https://www.mixmax.com/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 155,
           "name": "mlean",
           "url": "https://mlean.jobs.personio.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 156,
           "name": "modo",
           "url": "https://doc.clickup.com/p/h/4aw7y-533/ff8c70b304156ba/4aw7y-533",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 157,
           "name": "Mood",
           "url": "https://mood.breezy.hr/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 158,
           "name": "MONEI",
           "url": "https://monei.com/page/we-are-hiring/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 159,
           "name": "MongoDB",
           "url": "https://www.mongodb.com/careers/teams",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 160,
           "name": "Monkey Taps",
           "url": "https://monkeytaps.notion.site/Monkey-Taps-Job-Board-2ce7da50adff460093fd1eb46f5c9056",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 161,
           "name": "Mozilla",
           "url": "https://www.mozilla.org/en-US/careers/listings/?location=Remote%20Spain",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 162,
           "name": "Mr.Milú",
           "url": "https://mrmilu.com/talento",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 163,
           "name": "Neutroon",
           "url": "https://www.neutroon.com/career",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 164,
           "name": "Nexiona",
           "url": "https://angel.co/company/nexiona/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 165,
           "name": "Nextail",
           "url": "https://nextaillabs.recruitee.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 166,
           "name": "Next Matter",
           "url": "https://www.nextmatter.com/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 167,
           "name": "Next Digital",
           "url": "https://www.linkedin.com/company/nextdigitalhub/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 168,
           "name": "New Relic",
           "url": "https://newrelic.careers/en_US/careers/SearchJobs/?3141=162612&3141_format=2271&listFilterMode=1&jobRecordsPerPage=20&",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 169,
           "name": "New Work SE",
           "url": "https://www.new-work.se/en/career/vacancies",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 170,
           "name": "Noddus",
           "url": "https://www.enterprise.noddus.com/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 171,
           "name": "Nuclia",
           "url": "https://nuclia.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 172,
           "name": "Octopus Energy",
           "url": "https://octopus.energy/careers/join-us/#/?location=Remote%2C%20ES",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 173,
           "name": "Odilo",
           "url": "https://careers.odilo.us/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 174,
           "name": "Okta/Auth0",
           "url": "https://www.okta.com/company/careers/#careers-job-postings?department=All&location=4341",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 175,
           "name": "Oliva",
           "url": "https://apply.workable.com/oliva1/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 176,
           "name": "Oneclick",
           "url": "https://www.linkedin.com/company/oneclickes/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 177,
           "name": "Onna",
           "url": "https://boards.greenhouse.io/onna",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 178,
           "name": "OpenSistemas",
           "url": "https://opensistemas.com/category/empleo/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 179,
           "name": "Osoigo",
           "url": "https://www.linkedin.com/company/osoigo/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 180,
           "name": "Parkimeter",
           "url": "https://parkimeter.factorialhr.com/#jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 181,
           "name": "Parkos",
           "url": "https://jobs.parkos.com/jobs?remote_status_id=fully&query=",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 182,
           "name": "PayFit",
           "url": "https://payfit.com/en/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 183,
           "name": "PcComponentes",
           "url": "https://www.pccomponentes.com/trabaja-con-nosotros",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 184,
           "name": "Pearson",
           "url": "https://pearson.jobs/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 185,
           "name": "Personio",
           "url": "https://www.personio.com/about-personio/careers/#see-our-open-roles",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 186,
           "name": "Phiture",
           "url": "https://boards.eu.greenhouse.io/phiture",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 187,
           "name": "Plain Concepts",
           "url": "https://www.plainconcepts.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 188,
           "name": "Playtomic",
           "url": "https://playtomic.jobs.personio.com",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 189,
           "name": "Plexus Tech",
           "url": "https://www.plexus.es/en/join-the-team/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 190,
           "name": "Plytix",
           "url": "https://www.plytix.com/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 191,
           "name": "Postman",
           "url": "https://www.postman.com/company/careers/open-positions/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 192,
           "name": "Psonrie",
           "url": "https://www.linkedin.com/company/psonrie/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 193,
           "name": "Product Hackers",
           "url": "https://producthackers.recruitee.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 194,
           "name": "PSPDFKit",
           "url": "https://pspdfkit.com/company/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 195,
           "name": "Qatium",
           "url": "https://qatium.recruitee.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 196,
           "name": "QCentroid",
           "url": "https://www.linkedin.com/company/qcentroidlab/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 197,
           "name": "Qonto",
           "url": "https://jobs.lever.co/qonto?workplaceType=remote",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 198,
           "name": "Qualifyze",
           "url": "https://qualifyzegmbh.recruitee.com/job-list",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 199,
           "name": "QuestDB",
           "url": "https://questdb.io/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 200,
           "name": "Rand",
           "url": "https://www.linkedin.com/company/rand-app/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 201,
           "name": "RapidAnd",
           "url": "https://www.linkedin.com/company/rapidand/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 202,
           "name": "RatedPower",
           "url": "https://ratedpower.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 203,
           "name": "Red Hat",
           "url": "https://global-redhat.icims.com/jobs/search?ss=1&searchLocation=13549--Remote",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 204,
           "name": "Red Points",
           "url": "https://www.redpoints.com/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 205,
           "name": "Remote",
           "url": "https://boards.greenhouse.io/remotecom",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 206,
           "name": "RevenueCat",
           "url": "https://www.revenuecat.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 207,
           "name": "Revolut",
           "url": "https://revolut.la/es_remote_github",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 208,
           "name": "Ritmo",
           "url": "https://ritmo.jobs.personio.com/?language=es",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 209,
           "name": "SEAT:CODE",
           "url": "https://www.linkedin.com/company/seatcode/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 210,
           "name": "Science4Tech",
           "url": "https://www.linkedin.com/company/science4tech/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 211,
           "name": "Seedtag",
           "url": "https://seedtag.breezy.hr/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 212,
           "name": "sennder",
           "url": "https://www.sennder.com/open-positions?gh_src=04e6eaae2us",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 213,
           "name": "Sensor Tower",
           "url": "https://jobs.lever.co/sensortower",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 214,
           "name": "Seqera",
           "url": "https://seqera.io/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 215,
           "name": "SeQura",
           "url": "https://sequra.recruitee.com/career-page-jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 216,
           "name": "Shopery",
           "url": "https://www.shopery.com/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 217,
           "name": "Shopify",
           "url": "https://www.shopify.com/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 218,
           "name": "SIGNA Sports United",
           "url": "https://www.linkedin.com/company/signa-sports-united/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 219,
           "name": "Silt",
           "url": "https://silt.notion.site/silt/Job-Board-f831b4a649e0498bbd2f67863f93cb1e",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 220,
           "name": "Sketch",
           "url": "https://www.sketch.com/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 221,
           "name": "Slite",
           "url": "https://webflow-production.slite.com/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 222,
           "name": "SMART Technologies",
           "url": "https://smarttech.com/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 223,
           "name": "Sngular",
           "url": "https://www.sngular.com/es/ofertas/espana/all/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 224,
           "name": "Sololearn",
           "url": "https://sololearn.bamboohr.com/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 225,
           "name": "Splash",
           "url": "https://splashthat.com/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 226,
           "name": "Spotahome",
           "url": "https://rent.spotahome.com/work-with-us",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 227,
           "name": "Spotify",
           "url": "https://www.lifeatspotify.com/jobs?l=remote-emea",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 228,
           "name": "Stayforlong",
           "url": "https://www.linkedin.com/company/stayforlong/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 229,
           "name": "Stream",
           "url": "https://grnh.se/b7d3076c3us",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 230,
           "name": "Stuart",
           "url": "https://stuart.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 231,
           "name": "Syntax Information Technology",
           "url": "https://www.linkedin.com/jobs/search/?currentJobId=3272272809&f_C=2978930&geoId=92000000",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 232,
           "name": "Sysdig",
           "url": "https://sysdig.com/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 233,
           "name": "TaxScouts",
           "url": "https://taxscouts.es/unete-al-equipo/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 234,
           "name": "TBSCG",
           "url": "https://www.linkedin.com/company/tbscg/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 235,
           "name": "Teamwire",
           "url": "https://teamwire.eu/en/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 236,
           "name": "TecnoFor",
           "url": "https://tecnofor.es/trabajaconnosotros/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 237,
           "name": "The Hotels Network",
           "url": "https://info.thehotelsnetwork.com/en/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 238,
           "name": "The Knot Worldwide",
           "url": "https://job-boards.greenhouse.io/theknotworldwide?offices%5B%5D=4035807008",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 239,
           "name": "TheyDo",
           "url": "https://www.theydo.com/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 240,
           "name": "Tinybird",
           "url": "https://www.tinybird.co/about#join-us",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 241,
           "name": "Treatwell",
           "url": "https://apply.workable.com/treatwell/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 242,
           "name": "Trialing",
           "url": "https://www.linkedin.com/company/trialing/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 243,
           "name": "Tribaldata",
           "url": "https://www.linkedin.com/company/tribaldata/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 244,
           "name": "TROOP",
           "url": "https://apply.workable.com/troop-1/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 245,
           "name": "Twilio",
           "url": "https://boards.greenhouse.io/twilio/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 246,
           "name": "Typeform",
           "url": "https://www.typeform.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 247,
           "name": "Unimedia Technology",
           "url": "https://www.linkedin.com/jobs/search/?f_C=13029092",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 248,
           "name": "Unleash",
           "url": "https://cord.co/u/13419-unleash",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 249,
           "name": "UserZoom",
           "url": "https://www.userzoom.com/careers?uuid=elia",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 250,
           "name": "Verbio",
           "url": "https://www.verbio.com/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 251,
           "name": "Veriff",
           "url": "https://www.veriff.com/careers/open-positions",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 252,
           "name": "VIDA.place",
           "url": "https://vida-place.jobs.personio.de/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 253,
           "name": "VideoAsk",
           "url": "https://www.linkedin.com/company/videoask/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 254,
           "name": "Vinissimus",
           "url": "https://www.linkedin.com/company/vinissimus/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 255,
           "name": "ViewNext",
           "url": "https://www.linkedin.com/company/viewnext/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 256,
           "name": "Vistaprint",
           "url": "https://jobs.vista.com/Vista/go/Vista-All/8835100/?q=&q2=&alertId=&locationsearch=&title=&shifttype=&facility=Remote&department=",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 257,
           "name": "Vitaance",
           "url": "https://vitaance.jobs.personio.com/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 258,
           "name": "Vizzuality",
           "url": "https://vizzuality.bamboohr.com/jobs/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 259,
           "name": "VMware, Inc.",
-          "url": "https://careers.vmware.com/location/jobs?country=ESP%7CSpain",
-          "category": "remote",
-          "country": "Spain",
+          "url": "https://careers.vmware.com/location/jobs?location=ESP%7CSpain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 260,
           "name": "Voicemod",
           "url": "https://voicemod.breezy.hr/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 261,
           "name": "Volcanic Internet",
           "url": "https://volcanicinternet.com/en/work-with-us/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 262,
           "name": "Voodoo",
           "url": "https://www.voodoo.io/careers/jobs/?location=Barcelona&workplace=Remote",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 263,
           "name": "Voxel",
           "url": "https://www.voxelgroup.net/people/en/home-eng/#page6",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 264,
           "name": "Wallbox",
           "url": "https://apply.workable.com/wallbox/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 265,
           "name": "Wave",
           "url": "https://www.wave.com/en/careers/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 266,
           "name": "Welocalize",
           "url": "https://jobs.lever.co/welocalize?location=Spain",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 267,
           "name": "Wizeline",
           "url": "https://www.wizeline.com/careers/open-roles/?locations=spain-based-remote",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 268,
           "name": "World Mobile",
           "url": "https://careers.worldmobile.io/?&location=Barcelona%2C%20ES#positions",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 269,
           "name": "Wuolah",
           "url": "https://wuolah.notion.site/Posiciones-abiertas-fbabecec44474f099d2f6f09d38d1282",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 270,
           "name": "Xceed",
           "url": "https://angel.co/company/xceed/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 271,
           "name": "Yeager.ai",
           "url": "https://apply.workable.com/yeager-dot-a-i/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 272,
           "name": "YouGov",
           "url": "https://jobs.yougov.com/jobs",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 273,
           "name": "Z1",
           "url": "https://z1.digital/careers",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 274,
           "name": "Zapier",
           "url": "https://zapier.com/jobs#job-openings",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 275,
           "name": "ZenRows",
           "url": "https://apply.workable.com/zenrows/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         },
         {
           "id": 276,
           "name": "Zubi Group",
           "url": "https://apply.workable.com/zubi-group/",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Ofrece trabajos remotos y contrata en España"
         }
       ]
@@ -2386,16 +2386,16 @@
           "id": 1,
           "name": "Rviewer",
           "url": "https://rviewer.io/jobs?workPreferences=remoteOnly",
-          "category": "remote",
-          "country": "Spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Plataformas españolas que listan empresas que ofrecen trabajo remoto"
         },
         {
           "id": 2,
           "name": "Remote Work Spain",
           "url": "https://remoteworkspain.es/",
-          "category": "remote",
-          "country": "spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Trabajos remotos en España"
         },
         {
@@ -2403,7 +2403,7 @@
           "name": "Upwork",
           "url": "https://www.upwork.com/",
           "category": "freelance",
-          "country": "international",
+          "location": "internacional",
           "description": "Plataforma líder de freelancing"
         },
         {
@@ -2411,7 +2411,7 @@
           "name": "Fiverr",
           "url": "https://www.fiverr.com/",
           "category": "freelance",
-          "country": "international",
+          "location": "internacional",
           "description": "Marketplace de servicios freelance"
         },
         {
@@ -2419,7 +2419,7 @@
           "name": "Freelancer",
           "url": "https://www.freelancer.com/",
           "category": "freelance",
-          "country": "international",
+          "location": "internacional",
           "description": "Plataforma global de freelancers"
         },
         {
@@ -2427,7 +2427,7 @@
           "name": "Malt España",
           "url": "https://www.malt.es/",
           "category": "freelance",
-          "country": "spain",
+          "location":"España",
           "description": "Red de freelancers en España"
         },
         {
@@ -2435,7 +2435,7 @@
           "name": "Malt",
           "url": "https://www.malt.com/",
           "category": "freelance",
-          "country": "international",
+          "location": "internacional",
           "description": "Red europea de freelancers"
         },
         {
@@ -2443,7 +2443,7 @@
           "name": "Toptal",
           "url": "https://www.toptal.com/",
           "category": "freelance",
-          "country": "international",
+          "location": "internacional",
           "description": "Red exclusiva de top freelancers"
         },
         {
@@ -2451,7 +2451,7 @@
           "name": "Twago España",
           "url": "https://www.twago.es/",
           "category": "freelance",
-          "country": "spain",
+          "location":"España",
           "description": "Plataforma de proyectos freelance en España"
         },
         {
@@ -2459,7 +2459,7 @@
           "name": "Guru",
           "url": "https://www.guru.com/",
           "category": "freelance",
-          "country": "international",
+          "location": "internacional",
           "description": "Marketplace de servicios profesionales"
         },
         {
@@ -2467,7 +2467,7 @@
           "name": "PeoplePerHour",
           "url": "https://www.peopleperhour.com/",
           "category": "freelance",
-          "country": "international",
+          "location": "internacional",
           "description": "Plataforma de freelancing por horas"
         },
         {
@@ -2475,7 +2475,7 @@
           "name": "Workana",
           "url": "https://www.workana.com/",
           "category": "freelance",
-          "country": "latam",
+          "location": "latam",
           "description": "Plataforma de freelancing para Latinoamérica"
         },
         {
@@ -2483,7 +2483,7 @@
           "name": "Freelancer.com",
           "url": "https://www.freelance.com/",
           "category": "freelance",
-          "country": "international",
+          "location": "internacional",
           "description": "Plataforma alternativa de freelancing"
         },
         {
@@ -2491,7 +2491,7 @@
           "name": "FreelancerMap",
           "url": "https://www.freelancermap.com/",
           "category": "freelance",
-          "country": "international",
+          "location": "internacional",
           "description": "Directorio de freelancers profesionales"
         },
         {
@@ -2499,7 +2499,7 @@
           "name": "Contra",
           "url": "https://contra.com/",
           "category": "freelance",
-          "country": "international",
+          "location": "internacional",
           "description": "Plataforma moderna de freelancing"
         }
       ]
@@ -2514,7 +2514,7 @@
           "name": "AngelList",
           "url": "https://angel.co/",
           "category": "startup",
-          "country": "international",
+          "location": "internacional",
           "description": "Trabajos en startups y empresas tecnológicas"
         },
         {
@@ -2522,7 +2522,7 @@
           "name": "Arc",
           "url": "https://arc.dev/",
           "category": "tech",
-          "country": "international",
+          "location": "internacional",
           "description": "Plataforma para desarrolladores remotos"
         },
         {
@@ -2530,7 +2530,7 @@
           "name": "Wellfound",
           "url": "https://wellfound.com/",
           "category": "startup",
-          "country": "international",
+          "location": "internacional",
           "description": "Trabajos en startups (antes Angel.co Jobs)"
         },
         {
@@ -2538,7 +2538,7 @@
           "name": "Crossover",
           "url": "https://www.crossover.com/",
           "category": "tech",
-          "country": "international",
+          "location": "internacional",
           "description": "Trabajos remotos de alta calidad en tech"
         },
         {
@@ -2546,7 +2546,7 @@
           "name": "Dice",
           "url": "https://www.dice.com/",
           "category": "tech",
-          "country": "usa",
+          "location": "usa",
           "description": "Portal especializado en tecnología"
         },
         {
@@ -2554,7 +2554,7 @@
           "name": "HubStaff Talent",
           "url": "https://hubstafftalent.net/",
           "category": "tech",
-          "country": "international",
+          "location": "internacional",
           "description": "Talento remoto para empresas"
         },
         {
@@ -2562,7 +2562,7 @@
           "name": "CodeMentor",
           "url": "https://www.codementor.io/",
           "category": "tech",
-          "country": "international",
+          "location": "internacional",
           "description": "Plataforma para desarrolladores y mentores"
         },
         {
@@ -2570,7 +2570,7 @@
           "name": "Gun.io",
           "url": "https://www.gun.io/",
           "category": "tech",
-          "country": "international",
+          "location": "internacional",
           "description": "Freelancers especializados en desarrollo"
         },
         {
@@ -2578,7 +2578,7 @@
           "name": "DevRemote",
           "url": "https://devremote.io/",
           "category": "tech",
-          "country": "international",
+          "location": "internacional",
           "description": "Trabajos remotos para desarrolladores"
         },
         {
@@ -2586,7 +2586,7 @@
           "name": "Lemon.io",
           "url": "https://lemon.io/",
           "category": "tech",
-          "country": "international",
+          "location": "internacional",
           "description": "Desarrolladores pre-seleccionados"
         },
         {
@@ -2594,7 +2594,7 @@
           "name": "AI Jobs",
           "url": "https://ai-jobs.net/",
           "category": "tech",
-          "country": "international",
+          "location": "internacional",
           "description": "Trabajos especializados en inteligencia artificial"
         },
         {
@@ -2602,7 +2602,7 @@
           "name": "HackerRank",
           "url": "https://www.hackerrank.com/",
           "category": "tech",
-          "country": "international",
+          "location": "internacional",
           "description": "Plataforma de reclutamiento técnico"
         },
         {
@@ -2610,7 +2610,7 @@
           "name": "Remote Frontend Jobs",
           "url": "https://remotefrontendjobs.com/",
           "category": "tech",
-          "country": "international",
+          "location": "internacional",
           "description": "Trabajos remotos de frontend"
         },
         {
@@ -2618,7 +2618,7 @@
           "name": "Remote Backend Jobs",
           "url": "https://remotebackendjobs.com/",
           "category": "tech",
-          "country": "international",
+          "location": "internacional",
           "description": "Trabajos remotos de backend"
         }
       ]
@@ -2632,40 +2632,40 @@
           "id": 1,
           "name": "Yeeply",
           "url": "https://www.yeeply.com/",
-          "category": "creative",
-          "country": "spain",
+          "category":"creativo",
+          "location":"España",
           "description": "Plataforma para proyectos digitales creativos"
         },
         {
           "id": 2,
           "name": "Domestika Jobs",
           "url": "https://www.domestika.org/",
-          "category": "creative",
-          "country": "international",
+          "category":"creativo",
+          "location": "internacional",
           "description": "Trabajos creativos y de diseño"
         },
         {
           "id": 3,
           "name": "Working Not Working",
           "url": "https://workingnotworking.com/",
-          "category": "creative",
-          "country": "international",
+          "category":"creativo",
+          "location": "internacional",
           "description": "Red de profesionales creativos"
         },
         {
           "id": 4,
           "name": "Behance Job Board",
           "url": "https://www.behance.net/joblist",
-          "category": "creative",
-          "country": "international",
+          "category":"creativo",
+          "location": "internacional",
           "description": "Trabajos creativos en la red de Adobe"
         },
         {
           "id": 5,
           "name": "Design Remotely",
           "url": "https://designremotely.co/",
-          "category": "creative",
-          "country": "international",
+          "category":"creativo",
+          "location": "internacional",
           "description": "Trabajos remotos de diseño"
         }
       ]
@@ -2680,7 +2680,7 @@
           "name": "JobsPresso",
           "url": "https://jobspresso.co/",
           "category": "general",
-          "country": "international",
+          "location": "internacional",
           "description": "Trabajos remotos"
         },
         {
@@ -2688,7 +2688,7 @@
           "name": "Otta",
           "url": "https://otta.com/",
           "category": "general",
-          "country": "international",
+          "location": "internacional",
           "description": "Trabajos en startups y scale-ups"
         },
         {
@@ -2696,7 +2696,7 @@
           "name": "Reddit Careers",
           "url": "https://redditinc.com/careers",
           "category": "general",
-          "country": "international",
+          "location": "internacional",
           "description": "Carreras en Reddit Inc."
         },
         {
@@ -2704,7 +2704,7 @@
           "name": "Le Hibou",
           "url": "https://www.lehibou.com/",
           "category": "general",
-          "country": "international",
+          "location": "internacional",
           "description": "Plataforma francesa de empleos"
         },
         {
@@ -2712,7 +2712,7 @@
           "name": "PowerToFly",
           "url": "https://powertofly.com/",
           "category": "general",
-          "country": "international",
+          "location": "internacional",
           "description": "Trabajos para mujeres y grupos diversos"
         },
         {
@@ -2720,7 +2720,7 @@
           "name": "Landing Jobs",
           "url": "https://landing.jobs/",
           "category": "general",
-          "country": "europe",
+          "location": "europa",
           "description": "Trabajos tech en Europa"
         },
         {
@@ -2728,7 +2728,7 @@
           "name": "CoWorker",
           "url": "https://www.coworker.com/",
           "category": "general",
-          "country": "international",
+          "location": "internacional",
           "description": "Espacios de coworking y trabajos"
         },
         {
@@ -2736,7 +2736,7 @@
           "name": "Hireline México",
           "url": "https://hireline.io/mx",
           "category": "general",
-          "country": "mexico",
+          "location": "méxico",
           "description": "Portal de empleos en México"
         },
         {
@@ -2744,15 +2744,15 @@
           "name": "GetOnBrd",
           "url": "https://www.getonbrd.com/",
           "category": "general",
-          "country": "latam",
+          "location": "latam",
           "description": "Trabajos tech en Latinoamérica"
         },
         {
           "id": 10,
           "name": "Work Remoto",
           "url": "https://workremoto.com/empleos/",
-          "category": "remote",
-          "country": "spain",
+          "category":"remoto",
+          "location":"España",
           "description": "Trabajos remotos en español"
         }
       ]
@@ -2767,7 +2767,7 @@
           "name": "Stratos",
           "url": "https://stratos-ad.com/trabajo",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal de empleos español"
         },
         {
@@ -2775,7 +2775,7 @@
           "name": "Glassdoor España",
           "url": "https://www.glassdoor.es/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Empleos y reviews de empresas"
         },
         {
@@ -2783,7 +2783,7 @@
           "name": "Primer Empleo",
           "url": "https://www.primerempleo.com/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal para jóvenes profesionales"
         },
         {
@@ -2791,7 +2791,7 @@
           "name": "Con Talento",
           "url": "https://www.contalento.es/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal de empleos cualificados"
         },
         {
@@ -2799,7 +2799,7 @@
           "name": "Iwantic",
           "url": "https://iwantic.com/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal de empleos español"
         },
         {
@@ -2807,7 +2807,7 @@
           "name": "Talent Hackers",
           "url": "https://talenthackers.net/",
           "category": "tech",
-          "country": "spain",
+          "location":"España",
           "description": "Trabajos tech en España"
         },
 
@@ -2816,7 +2816,7 @@
           "name": "Manfred",
           "url": "https://www.getmanfred.com/",
           "category": "tech",
-          "country": "spain",
+          "location":"España",
           "description": "Plataforma tech española"
         },
         {
@@ -2824,7 +2824,7 @@
           "name": "Tecnoempleo",
           "url": "https://www.tecnoempleo.com/",
           "category": "tech",
-          "country": "spain",
+          "location":"España",
           "description": "Empleos tecnológicos en España"
         },
         {
@@ -2832,7 +2832,7 @@
           "name": "TicJob",
           "url": "https://ticjob.es/",
           "category": "tech",
-          "country": "spain",
+          "location":"España",
           "description": "Empleos TIC en España"
         },
         {
@@ -2840,7 +2840,7 @@
           "name": "JobFluent España",
           "url": "https://www.jobfluent.com/es",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal multilingüe de empleos"
         },
         {
@@ -2848,7 +2848,7 @@
           "name": "Talent Match",
           "url": "https://talent-match.es/landing/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Matching de talento en España"
         },
         {
@@ -2856,7 +2856,7 @@
           "name": "Works Init",
           "url": "https://worksinit.com/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal de empleos español"
         },
         {
@@ -2864,7 +2864,7 @@
           "name": "Q-TechRec",
           "url": "https://www.q-techrec.com/",
           "category": "tech",
-          "country": "spain",
+          "location":"España",
           "description": "Reclutamiento tecnológico"
         },
         {
@@ -2872,7 +2872,7 @@
           "name": "Indeed España",
           "url": "https://es.indeed.com/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal líder de búsqueda de empleo"
         },
         {
@@ -2880,7 +2880,7 @@
           "name": "Jobzilla España",
           "url": "https://es.jobzil.la/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Agregador de ofertas de empleo"
         },
         {
@@ -2888,7 +2888,7 @@
           "name": "Opción Empleo",
           "url": "https://www.opcionempleo.com/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal español de empleos"
         },
         {
@@ -2896,7 +2896,7 @@
           "name": "Trovit Empleos",
           "url": "https://empleo.trovit.es/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Buscador de empleos español"
         },
         {
@@ -2904,7 +2904,7 @@
           "name": "Jooble España",
           "url": "https://es.jooble.org/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Motor de búsqueda de empleos"
         },
         {
@@ -2912,7 +2912,7 @@
           "name": "Manpower España",
           "url": "https://www.manpower.es/es",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Agencia de recursos humanos"
         },
         {
@@ -2920,7 +2920,7 @@
           "name": "Experteer España",
           "url": "https://www.experteer.es/",
           "category": "executive",
-          "country": "spain",
+          "location":"España",
           "description": "Empleos ejecutivos en España"
         },
         {
@@ -2928,7 +2928,7 @@
           "name": "Milanuncios Empleos",
           "url": "https://www.milanuncios.com/ofertas-de-empleo/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Clasificados de empleo"
         },
 
@@ -2937,7 +2937,7 @@
           "name": "Simply Hired España",
           "url": "https://www.simplyhired.es/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Agregador de ofertas de empleo"
         },
         {
@@ -2945,7 +2945,7 @@
           "name": "Job&Talent España",
           "url": "https://www.jobandtalent.com/es",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Plataforma de empleo móvil"
         },
         {
@@ -2953,7 +2953,7 @@
           "name": "InfoEmpleo",
           "url": "https://www.infoempleo.com/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal tradicional español"
         },
         {
@@ -2961,7 +2961,7 @@
           "name": "InfoJobs",
           "url": "https://www.infojobs.net/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal líder en España"
         },
         {
@@ -2969,7 +2969,7 @@
           "name": "Monster España",
           "url": "https://www.monster.es/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal internacional en España"
         },
         {
@@ -2977,7 +2977,7 @@
           "name": "Trabajos.com",
           "url": "https://www.trabajos.com/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal de empleos español"
         },
         {
@@ -2985,31 +2985,31 @@
           "name": "Adecco España",
           "url": "https://www.adecco.es/ofertas-trabajo",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Agencia líder de recursos humanos"
         },
         {
           "id": 29,
           "name": "LinkedIn",
           "url": "https://www.linkedin.com/",
-          "category": "professional",
-          "country": "international",
+          "category": "profesional",
+          "location": "internacional",
           "description": "Red profesional global"
         },
         {
           "id": 30,
           "name": "Universia Jobs España",
           "url": "https://jobs.universia.net/es",
-          "category": "university",
-          "country": "spain",
+          "category": "universidad",
+          "location":"España",
           "description": "Empleos para universitarios"
         },
         {
           "id": 31,
           "name": "StudentJob España",
           "url": "https://www.studentjob.es/",
-          "category": "student",
-          "country": "spain",
+          "category": "estudiante",
+          "location":"España",
           "description": "Empleos para estudiantes"
         },
         {
@@ -3017,7 +3017,7 @@
           "name": "CornerJob España",
           "url": "https://www.cornerjob.com/es",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "App móvil de empleos"
         },
         {
@@ -3025,7 +3025,7 @@
           "name": "Empleo Marketing",
           "url": "https://empleomarketing.com/ofertas-de-empleo/",
           "category": "marketing",
-          "country": "spain",
+          "location":"España",
           "description": "Empleos especializados en marketing"
         },
         {
@@ -3033,7 +3033,7 @@
           "name": "JobToday España",
           "url": "https://jobtoday.com/es",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Chat directo con empleadores"
         },
         {
@@ -3041,7 +3041,7 @@
           "name": "Welcome to the Jungle España",
           "url": "https://www.welcometothejungle.com/es",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Cultura empresarial y empleos"
         },
         {
@@ -3049,7 +3049,7 @@
           "name": "BuscoJobs España",
           "url": "https://www.buscojobs.com.es/",
           "category": "general",
-          "country": "spain",
+          "location":"España",
           "description": "Portal de búsqueda de empleo"
         }
       ]
@@ -3058,7 +3058,7 @@
   "metadata": {
     "version": "1.0.0",
     "total_sites": 375,
-    "last_updated": "2025-06-28",
+    "last_updated": "2025-06-30",
     "categories": [
       "remote_jobs_with_Spanish_contracts",
       "freelance",
@@ -3067,6 +3067,6 @@
       "general_international",
       "spain_local"
     ],
-    "countries": ["international", "spain", "usa", "europe", "latam", "mexico"]
+    "locations": ["international", "spain", "usa", "europe", "latam", "mexico"]
   }
 }

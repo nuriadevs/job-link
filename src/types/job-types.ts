@@ -4,7 +4,7 @@ export type JobSite = {
   name: string;
   url: string;
   category: string;
-  country: string;
+  location: string;
   description: string;
 };
 
@@ -21,7 +21,7 @@ export type Metadata = {
   total_sites: number;
   last_updated: string;
   categories: string[];
-  countries: string[];
+  locations: string[];
 };
 
 // Estructura total del archivo JSON

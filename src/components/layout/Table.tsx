@@ -104,7 +104,7 @@ const columns: ColumnDef<JobSite>[] = [
     ),
   },
   {
-    accessorKey: "country",
+    accessorKey: "location",
     header: ({ column }) => (
       <Button
         variant="ghost"
@@ -121,7 +121,7 @@ const columns: ColumnDef<JobSite>[] = [
       </Button>
     ),
     cell: ({ row }) => (
-      <div className="font-medium capitalize">{row.getValue("country")}</div>
+      <div className="font-medium capitalize">{row.getValue("location")}</div>
     ),
   },
   {

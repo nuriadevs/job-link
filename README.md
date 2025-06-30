@@ -84,6 +84,15 @@ En el archivo JSON los sites siguen esta estructura:
 -   🔧 **Envía un PR** con nuevas funcionalidades
 -   📢 **Comparte** el proyecto en redes sociales
 
+
+## 🔗 Fuentes de URLs
+
+Las URLs fueron recopiladas a partir de:
+
+- Mi propia búsqueda manual de fuentes relevantes.
+
+- El repositorio [remote-es/remotes](https://github.com/remote-es/remotes), que recopila recursos y enlaces útiles para encontrar trabajo remoto en español.
+
 ## 🤝 Contacto
 
 Si tienes preguntas, sugerencias o simplemente quieres charlar sobre el proyecto, enviáme un mensaje.

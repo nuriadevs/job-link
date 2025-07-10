@@ -12,6 +12,17 @@ import {
   SortingState,
   useReactTable,
 } from "@tanstack/react-table"
+
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuLabel,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+
 import { ArrowUpDown } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -37,7 +48,9 @@ import {
 
 import jobData from "@/data/url.json"
 import type { JobSite } from "@/types/job-types"
-import { capitalizePhrase } from "@/lib/utils"
+import { capitalizePhrase, getTranslateLocation } from "@/lib/utils"
+
+import { FaRegFolder, FaLocationDot, FaMagnifyingGlass } from "react-icons/fa6"
 
 // Extrae y aplana todos los sitios desde jobData
 const sites: JobSite[] = Object.values(jobData.job_boards).flatMap(
@@ -121,7 +134,9 @@ const columns: ColumnDef<JobSite>[] = [
       </Button>
     ),
     cell: ({ row }) => (
-      <div className="font-medium capitalize">{row.getValue("location")}</div>
+      <div className="font-medium capitalize">
+        {getTranslateLocation(row.getValue("location") as string)}
+      </div>
     ),
   },
   {
@@ -185,6 +200,18 @@ export function JobSitesTable() {
   const currentPage = table.getState().pagination.pageIndex
   const totalPages = table.getPageCount()
 
+  const categories = Array.from(
+    new Set(sites.map((site) => site.category))
+  ).sort()
+  const locations = Array.from(
+    new Set(sites.map((site) => site.location))
+  ).sort()
+
+  const selectedCategory = columnFilters.find((f) => f.id === "category")
+    ?.value as string
+  const selectedLocation = columnFilters.find((f) => f.id === "location")
+    ?.value as string
+
   return (
     <div className="w-full mx-auto">
       {/* Contenedor principal adaptativo */}
@@ -204,109 +231,184 @@ export function JobSitesTable() {
             className="flex flex-row items-center xs:flex-row gap-3 xs:gap-4 
                           xs:items-center xs:justify-between"
           >
-            <div className="flex-1 max-w-sm">
-              <label htmlFor="filter-name" className="sr-only">
-                Filtrar por nombre
-              </label>
-              <Input
-                id="filter-name"
-                placeholder="🔍 Escribe el nombre de la web..."
-                value={
-                  (table.getColumn("name")?.getFilterValue() as string) ?? ""
-                }
-                onChange={(event) =>
-                  table.getColumn("name")?.setFilterValue(event.target.value)
-                }
-                className="w-full text-sm sm:text-base
-                          h-9 sm:h-10
-                          transition-all duration-200
-                          focus:ring-2 focus:ring-primary/20"
-              />
-            </div>
+            <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 flex-wrap">
+              {/* Filtro por nombre */}
+              <div className="relative w-full sm:w-64">
+                <label htmlFor="filter-name" className="sr-only">
+                  Filtrar por nombre
+                </label>
 
-            {/* Indicador de resultados */}
-            <div className="text-xs sm:text-sm text-muted-foreground">
-              {table.getFilteredRowModel().rows.length} resultado
-              {table.getFilteredRowModel().rows.length !== 1 ? "s" : ""}
+                <FaMagnifyingGlass className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground text-sm" />
+                <Input
+                  id="filter-name"
+                  placeholder="Escribe el nombre de la web..."
+                  value={
+                    (table.getColumn("name")?.getFilterValue() as string) ?? ""
+                  }
+                  onChange={(event) =>
+                    table.getColumn("name")?.setFilterValue(event.target.value)
+                  }
+                  className="pl-9 text-sm sm:text-base h-9 sm:h-10"
+                />
+              </div>
+
+              {/* Dropdown de Categoría */}
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button
+                    variant="outline"
+                    className="w-40 sm:w-48 justify-between h-9 sm:h-10 truncate"
+                  >
+                    <span className="flex items-center gap-2 truncate">
+                      <FaRegFolder className="text-muted-foreground" />
+                      {selectedCategory ?? "Categoría"}
+                    </span>
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="w-40 sm:w-48">
+                  <DropdownMenuLabel>Filtrar por categoría</DropdownMenuLabel>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuRadioGroup
+                    value={selectedCategory ?? ""}
+                    onValueChange={(value) =>
+                      table
+                        .getColumn("category")
+                        ?.setFilterValue(value || undefined)
+                    }
+                  >
+                    <DropdownMenuRadioItem value="">
+                      Todas
+                    </DropdownMenuRadioItem>
+                    {categories.map((cat) => (
+                      <DropdownMenuRadioItem
+                        key={cat}
+                        value={capitalizePhrase(cat)}
+                      >
+                        {capitalizePhrase(cat)}
+                      </DropdownMenuRadioItem>
+                    ))}
+                  </DropdownMenuRadioGroup>
+                </DropdownMenuContent>
+              </DropdownMenu>
+
+              {/* Dropdown de Ubicación */}
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button
+                    variant="outline"
+                    className="w-40 sm:w-48 justify-between h-9 sm:h-10 truncate"
+                  >
+                    <span className="flex items-center gap-2">
+                      <FaLocationDot className="text-muted-foreground" />
+                      {selectedLocation
+                        ? getTranslateLocation(selectedLocation)
+                        : "Ubicación"}
+                    </span>
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="w-40 sm:w-48">
+                  <DropdownMenuLabel>Filtrar por ubicación</DropdownMenuLabel>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuRadioGroup
+                    value={selectedLocation ?? ""}
+                    onValueChange={(value) =>
+                      table
+                        .getColumn("location")
+                        ?.setFilterValue(value || undefined)
+                    }
+                  >
+                    <DropdownMenuRadioItem value="">
+                      Todas
+                    </DropdownMenuRadioItem>
+                    {locations.map((loc) => (
+                      <DropdownMenuRadioItem
+                        key={loc}
+                        value={capitalizePhrase(loc)}
+                      >
+                        {getTranslateLocation(loc)}
+                      </DropdownMenuRadioItem>
+                    ))}
+                  </DropdownMenuRadioGroup>
+                </DropdownMenuContent>
+              </DropdownMenu>
             </div>
           </div>
         </div>
 
-        {/* Tabla o Cards según el dispositivo */}
-        <div className="relative">
-          {/* Vista de tabla para todos los dispositivos, con scroll horizontal en móvil */}
-          <div className="overflow-x-auto w-full">
-            <Table className="w-full min-w-[600px]">
-              <TableHeader>
-                {table.getHeaderGroups().map((headerGroup) => (
+        {/* Tabla */}
+
+        {/* Vista de tabla para todos los dispositivos, con scroll horizontal en móvil */}
+        <div className="overflow-x-auto w-full h-full">
+          <Table role="table" className="w-full min-w-[600px]">
+            <TableHeader>
+              {table.getHeaderGroups().map((headerGroup) => (
+                <TableRow
+                  key={headerGroup.id}
+                  className="border-b border-border/30 hover:bg-muted/30"
+                >
+                  {headerGroup.headers.map((header) => (
+                    <TableHead
+                      key={header.id}
+                      scope="col"
+                      className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-xs sm:text-sm md:text-base font-semibold text-muted-foreground whitespace-nowrap"
+                      aria-sort={
+                        header.column.getIsSorted
+                          ? header.column.getIsSorted() === "asc"
+                            ? "ascending"
+                            : header.column.getIsSorted() === "desc"
+                            ? "descending"
+                            : "none"
+                          : undefined
+                      }
+                    >
+                      {header.isPlaceholder
+                        ? null
+                        : flexRender(
+                            header.column.columnDef.header,
+                            header.getContext()
+                          )}
+                    </TableHead>
+                  ))}
+                </TableRow>
+              ))}
+            </TableHeader>
+            <TableBody>
+              {table.getRowModel().rows.length ? (
+                table.getRowModel().rows.map((row, index) => (
                   <TableRow
-                    key={headerGroup.id}
-                    className="border-b border-border/30 hover:bg-muted/30"
+                    key={row.id}
+                    className="border-b border-border/20 hover:bg-muted/40 transition-colors duration-200 animate-in fade-in slide-in-from-bottom-1"
+                    style={{ animationDelay: `${index * 30}ms` }}
+                    tabIndex={0}
                   >
-                    {headerGroup.headers.map((header) => (
-                      <TableHead
-                        key={header.id}
-                        scope="col"
-                        className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-xs sm:text-sm md:text-base font-semibold text-muted-foreground whitespace-nowrap"
-                        aria-sort={
-                          header.column.getIsSorted
-                            ? header.column.getIsSorted() === "asc"
-                              ? "ascending"
-                              : header.column.getIsSorted() === "desc"
-                              ? "descending"
-                              : "none"
-                            : undefined
-                        }
+                    {row.getVisibleCells().map((cell) => (
+                      <TableCell
+                        key={cell.id}
+                        className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-xs sm:text-sm md:text-base text-foreground whitespace-nowrap"
                       >
-                        {header.isPlaceholder
-                          ? null
-                          : flexRender(
-                              header.column.columnDef.header,
-                              header.getContext()
-                            )}
-                      </TableHead>
+                        {flexRender(
+                          cell.column.columnDef.cell,
+                          cell.getContext()
+                        )}
+                      </TableCell>
                     ))}
                   </TableRow>
-                ))}
-              </TableHeader>
-              <TableBody>
-                {table.getRowModel().rows.length ? (
-                  table.getRowModel().rows.map((row, index) => (
-                    <TableRow
-                      key={row.id}
-                      className="border-b border-border/20 hover:bg-muted/40 transition-colors duration-200 animate-in fade-in slide-in-from-bottom-1"
-                      style={{ animationDelay: `${index * 30}ms` }}
-                      tabIndex={0}
-                    >
-                      {row.getVisibleCells().map((cell) => (
-                        <TableCell
-                          key={cell.id}
-                          className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-xs sm:text-sm md:text-base text-foreground whitespace-nowrap"
-                        >
-                          {flexRender(
-                            cell.column.columnDef.cell,
-                            cell.getContext()
-                          )}
-                        </TableCell>
-                      ))}
-                    </TableRow>
-                  ))
-                ) : (
-                  <TableRow>
-                    <TableCell
-                      colSpan={columns.length}
-                      className="h-32 text-center"
-                    >
-                      <div className="flex flex-col items-center justify-center text-muted-foreground">
-                        <div className="text-4xl mb-2">🔍</div>
-                        <p className="text-sm">No se encontraron resultados</p>
-                      </div>
-                    </TableCell>
-                  </TableRow>
-                )}
-              </TableBody>
-            </Table>
-          </div>
+                ))
+              ) : (
+                <TableRow>
+                  <TableCell
+                    colSpan={columns.length}
+                    className="h-32 text-center"
+                  >
+                    <div className="flex flex-col items-center justify-center text-muted-foreground">
+                      <div className="text-4xl mb-2">🔍</div>
+                      <p className="text-sm">No se encontraron resultados</p>
+                    </div>
+                  </TableCell>
+                </TableRow>
+              )}
+            </TableBody>
+          </Table>
         </div>
 
         {/* Paginación mejorada */}
@@ -324,6 +426,11 @@ export function JobSitesTable() {
               {/* Info de página */}
               <div className="text-xs sm:text-sm order-2 xs:order-1">
                 Página {currentPage + 1} de {totalPages}
+                {/* Indicador de resultados */}
+                <div className="text-muted-foreground mt-3">
+                  {table.getFilteredRowModel().rows.length} resultado
+                  {table.getFilteredRowModel().rows.length !== 1 ? "s" : ""}
+                </div>
               </div>
 
               {/* Controles de paginación */}

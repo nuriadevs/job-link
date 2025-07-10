@@ -37,12 +37,12 @@ Este proyecto nace de la necesidad de ayudar a developers, diseñadores y profes
 ## 🚀 Demo
 
 Visita la web [EmpleoLink](https://empleo-link.vercel.app/) para ver el proyecto en vivo.
-https://youtu.be/wiZI81njLYU
+
 
 
 ## 🎬 Video Demo
 
-<a  href="https://youtu.be/wiZI81njLYU?si=1QQuk1IeEfLAjAma"  target="_blank"> <img  src="public/images/youtube.png"  alt="Video demostración de EmpleoLink"  width="400"> </a>
+<a  href="https://youtu.be/wiZI81njLYU?si=1QQuk1IeEfLAjAma"  target="_blank"> <img  src="public/images/youtube.png"  alt="Video demostración de EmpleoLink"  style="width: 200px;"> </a>
 
 ## 📱 Capturas de Pantalla 
 

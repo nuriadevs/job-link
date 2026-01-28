@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import "@/styles/globals.css"
-import { ThemeProvider } from "@/components/theme-provider"
-import { Footer } from "@/components/layout/Footer"
-import { Header } from "@/components/layout/Header"
+import { ThemeProvider } from "@/components/providers/theme-provider"
+import { Footer } from "@/components/layout/footer"
+import { Header } from "@/components/layout/header"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,11 +31,21 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Nuria Vázquez" }],
   creator: "Nuria Vázquez",
-
-  /**
-   * Open Graph metadata para mejorar la visibilidad en redes sociales (proximamente)
-   */
-   
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png' },
+    ],
+    other: [
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+    ],
+  },
+  manifest: '/site.webmanifest',
 }
 
 export default function RootLayout({

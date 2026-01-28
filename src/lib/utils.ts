@@ -8,8 +8,6 @@ export function cn(...inputs: ClassValue[]) {
 
 /**
  * Fución para capitalizar palabras
- * @param phrase 
- * @returns 
  */
 
 export function capitalizePhrase(phrase: string): string {
@@ -18,8 +16,6 @@ export function capitalizePhrase(phrase: string): string {
 
 /**
  * Función para "traducir" las localizaciones al español  
- * @param location 
- * @returns 
  */
 export function getTranslateLocation(location: string) {
   switch (location.toLowerCase()) {

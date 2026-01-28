@@ -9,18 +9,20 @@ export function Footer() {
       role="contentinfo"
       aria-label="Pie de página"
     >
-      {/* Contenedor principal del footer */}
-      <div className="w-full max-w-screen-3xl mx-auto px-3 xs:px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20 py-6">
-        <div className="flex flex-col md:flex-row items-center justify-between w-full">
-          {/* Copyright */}
-          <span className="text-muted-foreground flex items-center gap-1 text-center md:text-left">
+
+      <div className="w-full max-w-screen-3xl mx-auto py-4 sm:py-2 px-3 xs:px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20">
+        <div
+          className="flex items-center justify-between
+                        px-3 xs:px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20
+                        py-2 sm:py-2.5 md:py-3"
+        >  
+          <span className="text-xs sm:text-sm text-muted-foreground flex items-center gap-1 text-center md:text-left">
             © <Timestamp /> Made with{" "}
-            <FaHeart className="text-red-500" aria-label="amor" /> by
+            <FaHeart className="w-3 h-3 text-red-500 animate-pulse" aria-label="amor" /> by
             <span className="font-semibold ml-1">Nuria Vázquez.</span>
           </span>
 
-          {/* Social Links */}
-          <div className="flex items-center gap-4 mt-4 md:mt-0">
+          <div className="flex items-center gap-3">
             {socialLinks.map((link: SocialLink) => (
               <a
                 key={link.href}
@@ -28,10 +30,10 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={link.label}
-                className="text-sm hover:text-[var(--footer-icon-hover)] focus:outline focus:ring-2 focus:ring-primary/50 transition-colors duration-300"
+                className="text-muted-foreground hover:text-indigo-700 focus:outline focus:ring-2 focus:ring-primary/50 transition-colors duration-300"
               >
                 <link.icon
-                  className="w-[var(--footer-icon-size)] h-[var(--footer-icon-size)]"
+                  className="w-4 h-4 sm:w-5 sm:h-5"
                   aria-hidden="true"
                 />
               </a>

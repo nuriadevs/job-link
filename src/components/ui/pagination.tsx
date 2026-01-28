@@ -1,3 +1,4 @@
+
 import * as React from "react"
 import {
   ChevronLeftIcon,
@@ -8,6 +9,10 @@ import {
 import { cn } from "@/lib/utils"
 import { Button, buttonVariants } from "@/components/ui/button"
 
+
+/**
+  * Función de paginación accesible
+ */
 function Pagination({ className, ...props }: React.ComponentProps<"nav">) {
   return (
     <nav
@@ -20,6 +25,11 @@ function Pagination({ className, ...props }: React.ComponentProps<"nav">) {
   )
 }
 
+
+
+/**
+ * Función contenedor de los elementos de paginación
+ */
 function PaginationContent({
   className,
   ...props
@@ -33,15 +43,24 @@ function PaginationContent({
   )
 }
 
+/**
+ * Función de elemento de paginación
+ */
 function PaginationItem({ ...props }: React.ComponentProps<"li">) {
   return <li data-slot="pagination-item" {...props} />
 }
 
+/**
+ * Función PaginationLink para renderizar enlaces de paginación con estado activo
+ */
 type PaginationLinkProps = {
   isActive?: boolean
 } & Pick<React.ComponentProps<typeof Button>, "size"> &
   React.ComponentProps<"a">
 
+/**
+  * Función PaginationLink para renderizar enlaces de paginación con estado activo.
+ */
 function PaginationLink({
   className,
   isActive,
@@ -65,12 +84,16 @@ function PaginationLink({
   )
 }
 
+/**
+ * Función PaginationPrevious para renderizar el botón de página anterior
+ */
 function PaginationPrevious({
   className,
   ...props
 }: React.ComponentProps<typeof PaginationLink>) {
   return (
     <PaginationLink
+
       aria-label="Go to previous page"
       size="default"
       className={cn("gap-1 px-2.5 sm:pl-2.5", className)}
@@ -82,6 +105,10 @@ function PaginationPrevious({
   )
 }
 
+
+/**
+ * Función PaginationNext para renderizar el botón de página siguiente
+ */
 function PaginationNext({
   className,
   ...props
@@ -99,6 +126,9 @@ function PaginationNext({
   )
 }
 
+/**
+  * Función PaginationEllipsis para renderizar el indicador de más páginas
+ */
 function PaginationEllipsis({
   className,
   ...props

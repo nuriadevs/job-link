@@ -3,6 +3,12 @@
 import * as React from "react"
 import { ThemeProvider as NextThemesProvider } from "next-themes"
 
+/**
+ * Función ThemeProvider para envolver la aplicación con soporte de temas. 
+ * Para ello, utiliza el proveedor de temas de 'next-themes' de shadcn.
+ * @param param0 
+ * @returns 
+ */
 export function ThemeProvider({
   children,
   ...props

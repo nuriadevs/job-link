@@ -1,371 +1,132 @@
-<img  src="public/images/logo.png"  alt="Logo empleo link"  width="120"  height="120">
-
-  
-
-  
+<img src="public/images/logo.png" alt="EmpleoLink Logo" width="120" height="120">
 
 # EmpleoLink
 
-  
+📘 Also available in [Spanish](./README.es.md)
 
-  
+> 🚀 **Sharing resources for the tech community**
 
-> 🚀 **Compartiendo recursos para la comunidad tech**
+This project was born from the need to help developers, designers, and tech professionals like me find job opportunities and better understand the current market.
 
-  
-
-  
-
-Este proyecto nace de la necesidad de ayudar a developers, diseñadores y profesionales tech como yo a encontrar oportunidades laborales y entender mejor el mercado actual.
-
-  
-
-  
-
-[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge)](https://tu-empleo-link.vercel.app/) [![Next.js](https://img.shields.io/badge/Next.js-15-blue?style=for-the-badge&logo=next.js)](https://nextjs.org/) [![Tailwind](https://img.shields.io/badge/Tailwind-4-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
-
-  
-
-  
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge)](https://tu-empleo-link.vercel.app/) [![Next.js](https://img.shields.io/badge/Next.js-16-blue?style=for-the-badge&logo=next.js)](https://nextjs.org/) [![Tailwind](https://img.shields.io/badge/Tailwind-4-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
 
 ----------
 
-  
+## 🎯 What will you find here?
 
-  
+- 🔗 **Job boards** for tech, creative, and digital positions
 
-## 🎯 ¿Qué encontrarás aquí?
+- 📊 **Updated resources** about the job market
 
-  
-
-  
-
-- 🔗 **Webs con ofertas** en empleos tech, creativos y digitales
-
-  
-
-- 📊 **Recursos actualizados** sobre el mercado laboral
-
-  
-
-- 🌍 **Oportunidades remotas** y presenciales
-
-  
-  
+- 🌍 **Remote and on-site** opportunities
 
 ## 🚀 Demo
 
-  
-
-Visita la web [EmpleoLink](https://empleo-link.vercel.app/) para ver el proyecto en vivo.
-
-  
-  
-  
+Visit [EmpleoLink](https://empleo-link.vercel.app/) to see the live project.
 
 ## 🎬 Video Demo
 
-Ver demo del proyecto [EmpleoLink](https://youtu.be/wiZI81njLYU?si=1QQuk1IeEfLAjAma) 
-  
+Watch the project demo [EmpleoLink](https://youtu.be/wiZI81njLYU?si=1QQuk1IeEfLAjAma)
 
-## 📱 Capturas de Pantalla
-
-  
+## 📱 Screenshots
 
 ### Desktop
 
-  
-
-<img  src="public/images/desktop-view.png"  alt="Desktop View"  style="width: 400px;"  />
-
-  
-  
+<img src="public/images/desktop-view.png" alt="Desktop View" style="width: 400px;" />
 
 ### Tablet
 
-  
-
-<img  src="public/images/tablet-view.png"  alt="Tablet View"  style="width: 300px;"  />
-
-  
+<img src="public/images/tablet-view.png" alt="Tablet View" style="width: 300px;" />
 
 ### Mobile
 
-  
+<img src="public/images/mobile-view.png" alt="Mobile View" style="width: 200px;"/>
 
-<img
+## ✨ Features
 
-src="public/images/mobile-view.png"  alt="Mobile View"
+- **📱 Responsive Design**: Optimized for mobile, tablet, and desktop.
 
-style="width: 200px;"/>
+- **🌙 Dark/Light Mode**: Switch between themes based on your preference.
 
-  
-  
+- **⚡ Performance**: Fast loading with Next.js 16.
 
-## ✨ Características
+- **🎨 UI**: Designed with Tailwind CSS 4
 
-  
+- **♿ Accessible**: Web accessibility labels
 
-  
+## 🛠️ Tech Stack
 
--  **📱 Responsive Design**: Para móvil, tablet y desktop.
+- **Framework**: [Next.js](https://nextjs.org/) 16
 
-  
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) 4
 
--  **🌙 Dark/Light Mode**: Cambia entre temas según tu preferencia.
+- **UI Components**: [Shadcn/ui](https://ui.shadcn.com/)
 
-  
+- **Deploy**: [Vercel](https://vercel.com/)
 
--  **⚡ Performance**: Carga rápida con Next.js 15.
+- **Data**: JSON
 
-  
-
-- **🎨 UI **: Diseño con Tailwind CSS 4
-
-  
-
--  **♿ Accesible**: Etiquetas de accesibilidad web
-
-  
-
-  
-
-## 🛠️ Stack Tecnológico
-
-  
-
-  
-
--  **Framework**: [Next.js](https://nextjs.org/) 15
-
-  
-
--  **Estilo**: [Tailwind CSS](https://tailwindcss.com/) 4
-
-  
-
--  **UI Components**: [Shadcn/ui](https://ui.shadcn.com/)
-
-  
-
--  **Deploy**: [Vercel](https://vercel.com/)
-
-  
-
--  **Data**: JSON
-
-  
-
-  
-
-## 📦 Instalación
-
-  
-
-  
-
+## 📦 Installation
 ```bash
+# Clone the repository
+git clone https://github.com/nuriadevs/empleo-link.git
 
-  
+# Navigate to the directory
+cd empleo-link
 
-# Clona el repositorio
+# Install dependencies
+npm install
 
-  
+# Run in development mode
+npm run dev
 
-git  clone  https://github.com/nuriadevs/empleo-link.git
-
-  
-
-  
-
-# Navega al directorio
-
-  
-
-cd  empleo-link
-
-  
-
-  
-
-# Instala dependencias
-
-  
-
-npm  install
-
-  
-
-  
-
-# Ejecuta en desarrollo
-
-  
-
-npm  run  dev
-
-  
-
-  
-
-# Abre http://localhost:3000 en tu navegador
-
-  
-
-  
-
+# Open http://localhost:3000 in your browser
 ```
 
-  
+## 🔄 Updates
 
-  
+I regularly update this project with improvements to links, new features, or UI adjustments.
 
-## 🔄 Actualización
+## 🌱 Want to contribute?
 
-  
+#### 📝 How to add a new platform?
 
-  
-
-Actualizo este proyecto regularmente con mejoras en enlaces, nuevas funciones o ajustes visuales en la interfaz.
-
-  
-
-  
-
-## 🌱 ¿Quieres contribuir?
-
-  
-
-  
-
-#### 📝 ¿Cómo añadir una nueva plataforma?
-
-  
-
-  
-
-En el archivo JSON los sites siguen esta estructura:
-
-  
-
-  
-
+In the JSON file, sites follow this structure:
 ```json
-
-  
-
 {
-
-  
-
-"id": 1,
-
-  
-
-"name": "Nombre de la web",
-
-  
-
-"url": "https://ejemplo.com",
-
-  
-
-"category": ["freelance", "tech", "creativo"]
-
-  
-
-"location":  "global/españa/Específico",
-
-  
-
-"description": "Descripción breve"
-
-  
-
+  "id": 1,
+  "name": "Website name",
+  "url": "https://example.com",
+  "category": ["freelance", "tech", "creative"],
+  "location": "global/spain/specific",
+  "description": "Brief description"
 }
-
-  
-
-  
-
 ```
 
-  
+- 📝 **Open an issue** to suggest improvements
 
-  
+- 🔧 **Submit a PR** with new features
 
-- 📝 **Abre un issue** para sugerir mejoras
+- 📢 **Share** the project on social media
 
-  
+## 🔗 URL Sources
 
-- 🔧 **Envía un PR** con nuevas funcionalidades
+The URLs were compiled from:
 
-  
+- My own manual search for relevant sources.
 
-- 📢 **Comparte** el proyecto en redes sociales
+- The [remote-es/remotes](https://github.com/remote-es/remotes) repository, which compiles useful resources and links for finding remote work in Spanish.
 
-  
+## 🤝 Contact
 
-  
-
-## 🔗 Fuentes de URLs
-
-  
-
-  
-
-Las URLs fueron recopiladas a partir de:
-
-  
-
-  
-
-- Mi propia búsqueda manual de fuentes relevantes.
-
-  
-
-  
-
-- El repositorio [remote-es/remotes](https://github.com/remote-es/remotes), que recopila recursos y enlaces útiles para encontrar trabajo remoto en español.
-
-  
-
-  
-
-## 🤝 Contacto
-
-  
-
-  
-
-Si tienes preguntas, sugerencias o simplemente quieres charlar sobre el proyecto, enviáme un mensaje.
-
-  
-
-  
+If you have questions, suggestions, or just want to chat about the project, send me a message.
 
 ----------
 
-  
+**Made with ❤️ for the tech community**
 
-  
-
-**Hecho con ❤️ para la comunidad tech**
-
-  
-
-  
-
-_Si este recurso te ayuda a encontrar tu próxima oportunidad, ya cumplió su propósito._
-
-  
-
-  
+_If this resource helps you find your next opportunity, it has served its purpose._
 
 ----------
 
-  
-
-  
-
-⭐ **¿Te gustó el proyecto? ¡Dale una estrella!** ⭐
+⭐ **Did you like the project? Give it a star!** ⭐

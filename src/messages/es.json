@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": {
+      "default": "JobLink - Oportunidades Tech en un Solo Lugar",
+      "template": "%s | JobLink"
+    },
+    "description": "Descubre las mejores oportunidades laborales tech en un solo lugar. Encuentra trabajo en desarrollo, diseño, marketing digital y más.",
+    "keywords": "empleo tech, trabajo tecnología, ofertas desarrollo, empleo programador, trabajo remoto tech, oportunidades laborales, empleo junior, trabajo senior developer, ofertas de empleo, búsqueda de trabajo, bolsa de trabajo tech, empleos IT, trabajo desarrollador, ofertas programación, empleo full-stack, trabajo frontend, empleo backend, trabajo remoto España",
+    "author": {
+      "name": "Nuria Vázquez",
+      "url": "https://nuriavazquez.dev"
+    },
+    "creator": "Nuria Vázquez",
+    "publisher": "JobLink",
+    "openGraph": {
+      "title": "JobLink - Oportunidades Tech en un Solo Lugar",
+      "description": "Plataforma de empleo tech. Encuentra las mejores ofertas de trabajo en desarrollo, diseño, marketing digital y más.",
+      "siteName": "JobLink",
+      "locale": "es_ES",
+      "type": "website",
+      "imageAlt": "JobLink - Portal de Empleo Tech"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "JobLink - Oportunidades Tech en un Solo Lugar",
+      "description": "Descubre las mejores oportunidades laborales tech. Trabajo en desarrollo, diseño y marketing digital.",
+      "imageAlt": "JobLink - Empleo Tech"
+    },
+    "robots": {
+      "index": "true",
+      "follow": "true"
+    },
+    "category": "employment",
+    "classification": "Job Board"
+  },
+  "accessibility": {
+    "languageSwitcher": {
+      "label": "Cambiar idioma",
+      "currentLanguage": "Idioma actual",
+      "menuLabel": "Seleccionar idioma",
+      "selected": "Seleccionado",
+      "loading": "Cambiando idioma..."
+    }
+  },
+  "header": {
+    "logo": "JobLink Logo",
+    "title": "JobLink",
+    "controls": "Controles de configuración"
+  },
+  "theme": {
+    "toggle": "Cambiar tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "footer": {
+    "ariaLabel": "Pie de página",
+    "madeWith": "Hecho con",
+    "love": "amor",
+    "by": "por",
+    "socialLinks": {
+      "github": "GitHub de Nuria Vázquez",
+      "linkedin": "LinkedIn de Nuria Vázquez",
+      "globe": "Sitio web personal de Nuria Vázquez"
+    }
+  },
+  "jobs": {
+    "title": "Portales de Empleo Remoto",
+    "subtitle": "Tech, freelance y oportunidades remotas organizadas por categoría y ubicación",
+    "stats": {
+      "categories": "categorías",
+      "portals": "portales",
+      "total": "Total",
+      "techPlus": "Tech+",
+      "spain": "España",
+      "global": "Global"
+    },
+    "search": {
+      "placeholder": "Buscar por nombre, descripción o URL...",
+      "clearFilters": "Limpiar filtros"
+    },
+    "filters": {
+      "allCategories": "Todas las categorías",
+      "allLocations": "Todas las ubicaciones",
+      "perPage": "por página",
+      "categories": {
+        "techPlus": "Tech+",
+        "freelance": "Freelance",
+        "creative": "Creativo",
+        "general": "General"
+      },
+      "locations": {
+        "global": "Global",
+        "spain": "España",
+        "latam": "Latam"
+      }
+    },
+    "pagination": {
+      "showing": "Mostrando",
+      "to": "a",
+      "of": "de",
+      "results": "resultados",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "goToPrevious": "Ir a la página anterior",
+      "goToNext": "Ir a la página siguiente",
+      "morePages": "Más páginas"
+    },
+    "empty": {
+      "title": "No se encontraron resultados",
+      "description": "Intenta ajustar los filtros o el término de búsqueda",
+      "clearButton": "Limpiar filtros"
+    }
+  }
+}

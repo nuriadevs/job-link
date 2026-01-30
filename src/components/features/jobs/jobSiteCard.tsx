@@ -4,8 +4,6 @@ import type { JobSiteCardProps, BadgeProps } from '@/types/jobTypes';
 
 /**
  * Función JobSiteCard para renderizar una tarjeta de sitio de empleo.
- * @param param0
- * @returns
  */
 export default function JobSiteCard({ site }: JobSiteCardProps) {
   return (
@@ -36,8 +34,6 @@ export default function JobSiteCard({ site }: JobSiteCardProps) {
 
 /**
  * Función Badge para renderizar una etiqueta.
- * @param param0
- * @returns
  */
 function Badge({ label }: BadgeProps) {
   return (

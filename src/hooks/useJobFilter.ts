@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useMemo, useState, useCallback } from 'react';
@@ -8,8 +7,6 @@ import type { UseJobFilterOptions } from '@/types/jobTypes';
 
 /**
  * Función useJobFilter para gestionar el filtrado de sitios de empleo.
- * @param param0
- * @returns
  */
 export function useJobFilter({ sites }: UseJobFilterOptions) {
   const [searchTerm, setSearchTerm] = useState('');

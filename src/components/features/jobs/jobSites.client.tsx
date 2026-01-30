@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
+import { useTranslations } from 'next-intl';
 import { useJobFilter } from '@/hooks/useJobFilter';
 import type { 
   JobCategory, 
@@ -10,7 +11,6 @@ import type {
   EmptyStateProps
 } from '@/types/jobTypes';
 import JobSiteCard from '@/components/features/jobs/jobSiteCard';
-
 
 import {
   Pagination,
@@ -31,13 +31,11 @@ import {
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-
 /**
- * Funcuión JobSitesClient para renderizar la lista de sitios de empleo con filtros y paginación.
- * @param param0 
- * @returns 
+ * Función JobSitesClient para renderizar la lista de sitios de empleo con filtros y paginación.
  */
 export default function JobSitesClient({ sites, stats }: JobSitesClientProps) {
+  const t = useTranslations('jobs');
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(9);
 
@@ -115,24 +113,24 @@ export default function JobSitesClient({ sites, stats }: JobSitesClientProps) {
           <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 rounded-full bg-indigo-100">
             <Globe className="w-4 h-4 text-indigo-600" />
             <span className="text-sm font-semibold text-indigo-600">
-              {stats.bySections} categorías · {stats.total} portales
+              {stats.bySections} {t('stats.categories')} · {stats.total} {t('stats.portals')}
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl font-bold mb-3">
-            Portales de Empleo Remoto
+            {t('title')}
           </h1>
 
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Tech, freelance y oportunidades remotas organizadas por categoría y ubicación
+            {t('subtitle')}
           </p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-          <StatCard icon={<Globe />} label="Total" value={stats.total} />
-          <StatCard icon={<Tag />} label="Tech+" value={stats.byCategory['tech+']} />
-          <StatCard icon={<MapPin />} label="España" value={stats.byLocation.espana} />
-          <StatCard icon={<Globe />} label="Global" value={stats.byLocation.global} />
+          <StatCard icon={<Globe />} label={t('stats.total')} value={stats.total} />
+          <StatCard icon={<Tag />} label={t('stats.techPlus')} value={stats.byCategory['tech+']} />
+          <StatCard icon={<MapPin />} label={t('stats.spain')} value={stats.byLocation.espana} />
+          <StatCard icon={<Globe />} label={t('stats.global')} value={stats.byLocation.global} />
         </div>
 
         <div className="bg-card border border-border rounded-2xl p-6 mb-8 space-y-4">
@@ -142,7 +140,7 @@ export default function JobSitesClient({ sites, stats }: JobSitesClientProps) {
             <input
               value={searchTerm}
               onChange={(e) => handleFilterChange(setSearchTerm, e.target.value)}
-              placeholder="Buscar por nombre, descripción o URL..."
+              placeholder={t('search.placeholder')}
               className="w-full pl-12 pr-4 py-3 rounded-xl bg-muted border border-border focus:ring-2 focus:ring-ring focus:outline-none text-foreground"
             />
           </div>
@@ -153,11 +151,11 @@ export default function JobSitesClient({ sites, stats }: JobSitesClientProps) {
               onChange={(e) => handleFilterChange(setCategory, e.target.value as JobCategory | 'all')}
               className="w-full px-4 py-3 rounded-lg bg-muted border border-border focus:ring-2 focus:ring-ring focus:outline-none text-foreground"
             >
-              <option value="all">Todas las categorías</option>
-              <option value="tech+">Tech+</option>
-              <option value="freelance">Freelance</option>
-              <option value="creativo">Creativo</option>
-              <option value="general">General</option>
+              <option value="all">{t('filters.allCategories')}</option>
+              <option value="tech+">{t('filters.categories.techPlus')}</option>
+              <option value="freelance">{t('filters.categories.freelance')}</option>
+              <option value="creativo">{t('filters.categories.creative')}</option>
+              <option value="general">{t('filters.categories.general')}</option>
             </select>
 
             <select
@@ -165,10 +163,10 @@ export default function JobSitesClient({ sites, stats }: JobSitesClientProps) {
               onChange={(e) => handleFilterChange(setLocation, e.target.value as JobLocation | 'all')}
               className="w-full px-4 py-3 rounded-lg bg-muted border border-border focus:ring-2 focus:ring-ring focus:outline-none text-foreground"
             >
-              <option value="all">Todas las ubicaciones</option>
-              <option value="global">Global</option>
-              <option value="espana">España</option>
-              <option value="latam">Latam</option>
+              <option value="all">{t('filters.allLocations')}</option>
+              <option value="global">{t('filters.locations.global')}</option>
+              <option value="espana">{t('filters.locations.spain')}</option>
+              <option value="latam">{t('filters.locations.latam')}</option>
             </select>
 
             <select
@@ -179,10 +177,10 @@ export default function JobSitesClient({ sites, stats }: JobSitesClientProps) {
               }}
               className="w-full px-4 py-3 rounded-lg bg-muted border border-border focus:ring-2 focus:ring-ring focus:outline-none text-foreground"
             >
-              <option value="9">9 por página</option>
-              <option value="12">12 por página</option>
-              <option value="24">24 por página</option>
-              <option value="48">48 por página</option>
+              <option value="9">9 {t('filters.perPage')}</option>
+              <option value="12">12 {t('filters.perPage')}</option>
+              <option value="24">24 {t('filters.perPage')}</option>
+              <option value="48">48 {t('filters.perPage')}</option>
             </select>
           </div>
 
@@ -195,7 +193,7 @@ export default function JobSitesClient({ sites, stats }: JobSitesClientProps) {
               className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               <X className="w-4 h-4" />
-              Limpiar filtros
+              {t('search.clearFilters')}
             </button>
           )}
         </div>
@@ -212,9 +210,9 @@ export default function JobSitesClient({ sites, stats }: JobSitesClientProps) {
               <div className="flex flex-col items-center gap-4 mt-8 pt-6 border-t border-border">
 
                 <p className="text-sm text-muted-foreground">
-                  Mostrando <span className="font-semibold text-foreground">{startItem}</span> a{' '}
-                  <span className="font-semibold text-foreground">{endItem}</span> de{' '}
-                  <span className="font-semibold text-foreground">{totalResults}</span> resultados
+                  {t('pagination.showing')} <span className="font-semibold text-foreground">{startItem}</span> {t('pagination.to')}{' '}
+                  <span className="font-semibold text-foreground">{endItem}</span> {t('pagination.of')}{' '}
+                  <span className="font-semibold text-foreground">{totalResults}</span> {t('pagination.results')}
                 </p>
                 <Pagination>
                   <PaginationContent>
@@ -278,11 +276,8 @@ export default function JobSitesClient({ sites, stats }: JobSitesClientProps) {
   );
 }
 
-
 /**
  * Función StatCard para renderizar una tarjeta de estadística.
- * @param param0
- * @returns
  */
 function StatCard({ icon, label, value }: StatCardProps) {
   return (
@@ -298,10 +293,10 @@ function StatCard({ icon, label, value }: StatCardProps) {
 
 /**
  * Función EmptyState para renderizar el estado vacío cuando no hay resultados.
- * @param param0
- * @returns
  */
 function EmptyState({ onClear }: EmptyStateProps) {
+  const t = useTranslations('jobs.empty');
+  
   return (
     <div className="text-center py-20 bg-card rounded-xl border border-border">
       <div className="max-w-md mx-auto">
@@ -309,18 +304,18 @@ function EmptyState({ onClear }: EmptyStateProps) {
           <Search className="w-8 h-8 text-muted-foreground" />
         </div>
         <h3 className="text-lg font-semibold mb-2 text-foreground">
-          No se encontraron resultados
+          {t('title')}
         </h3>
         <p className="mb-6 text-muted-foreground">
-          Intenta ajustar los filtros o el término de búsqueda
+          {t('description')}
         </p>
         <Button
           onClick={onClear}
-          aria-label="Limpiar filtros"
+          aria-label={t('clearButton')}
           variant={'default'}
-          size ={'default'}
+          size={'default'}
         >
-          Limpiar filtros
+          {t('clearButton')}
         </Button>
       </div>
     </div>

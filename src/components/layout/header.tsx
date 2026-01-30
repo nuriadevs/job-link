@@ -1,8 +1,12 @@
+'use client'
 import { ModeToggle } from "@/components/modelToggle"
+import { LanguageSwitch } from "@/components/ui/language-switch"
+import { useTranslations } from "next-intl"
 import Image from "next/image"
 
-
 export function Header() {
+  const t = useTranslations("header")
+
   return (
     <header
       className="sticky top-0 z-50 w-full 
@@ -21,7 +25,7 @@ export function Header() {
               src="/logo.png"
               width={48}
               height={48}
-              alt="EmpleoLink Logo"
+              alt={t("logo")}
               className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 
                            transition-all duration-300 hover:drop-shadow-lg
                            dark:brightness-110"
@@ -30,18 +34,19 @@ export function Header() {
             <h1
               className="text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl 
                        font-bold text-left"
-              aria-label="EmpleoLink"
+              aria-label={t("title")}
             >
-              <span className="">EmpleoLink</span>
+              <span>{t("title")}</span>
             </h1>
           </div>
 
           <div
             className="flex items-center space-x-2 sm:space-x-3"
             role="toolbar"
-            aria-label="Controles de configuración"
+            aria-label={t("controls")}
           >
             <ModeToggle />
+            <LanguageSwitch />
           </div>
         </div>
       </div>

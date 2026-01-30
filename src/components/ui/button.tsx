@@ -40,7 +40,6 @@ const buttonVariants = cva(
 
 /**
  * Función Button para renderizar botones con diferentes variantes y tamaños.
-
  */
 function Button({
   className,

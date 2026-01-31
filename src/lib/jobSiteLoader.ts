@@ -47,8 +47,7 @@ function validateSite(site: unknown, id: number): JobSite | null {
     typeof s.name !== 'string' ||
     typeof s.url !== 'string' ||
     typeof s.category !== 'string' ||
-    typeof s.location !== 'string' ||
-    typeof s.description !== 'string'
+    typeof s.location !== 'string' 
   ) {
     return null;
   }
@@ -68,8 +67,7 @@ function validateSite(site: unknown, id: number): JobSite | null {
     name: s.name,
     url: s.url,
     category: s.category,
-    location: s.location,
-    description: s.description
+    location: s.location
   };
 }
 
@@ -167,7 +165,6 @@ export function searchSites(term: string): JobSite[] {
 
   return getAllSites().filter(site =>
     site.name.toLowerCase().includes(searchTerm) ||
-    site.description.toLowerCase().includes(searchTerm) ||
     site.url.toLowerCase().includes(searchTerm)
   );
 }

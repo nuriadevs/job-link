@@ -111,8 +111,6 @@ export async function generateMetadata({
       ],
     },
 
-    manifest: '/site.webmanifest',
-
     category: t('category'),
     classification: t('classification'),
 

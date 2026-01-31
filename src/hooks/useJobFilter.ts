@@ -20,7 +20,6 @@ export function useJobFilter({ sites }: UseJobFilterOptions) {
       const term = searchTerm.toLowerCase().trim();
       results = results.filter(site => 
         site.name.toLowerCase().includes(term) ||
-        site.description.toLowerCase().includes(term) ||
         site.url.toLowerCase().includes(term)
       );
     }

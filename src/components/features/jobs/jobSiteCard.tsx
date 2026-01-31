@@ -6,6 +6,9 @@ import type { JobSiteCardProps, BadgeProps } from '@/types/jobTypes';
  * Función JobSiteCard para renderizar una tarjeta de sitio de empleo.
  */
 export default function JobSiteCard({ site }: JobSiteCardProps) {
+
+  const domain = new URL(site.url).hostname.replace('www.', '');
+
   return (
     <a
       href={site.url}
@@ -20,9 +23,15 @@ export default function JobSiteCard({ site }: JobSiteCardProps) {
         <ExternalLink className="w-5 h-5 text-muted-foreground group-hover:text-indigo-700" />
       </div>
 
-      <p className="text-sm text-muted-foreground mb-4 line-clamp-2">
-        {site.description}
-      </p>
+
+      <div className="flex items-center gap-3 text-sm text-muted-foreground mb-2">
+        <div className="flex items-center">
+          <p className="text-sm text-muted-foreground/60 mb-2 font-mono truncate">
+            {domain}
+          </p>
+        </div>
+      </div>
+
 
       <div className="flex gap-2 flex-wrap">
         <Badge label={site.category} />

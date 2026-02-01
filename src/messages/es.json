@@ -76,7 +76,7 @@
       "global": "Global"
     },
     "search": {
-      "placeholder": "Buscar por nombre, descripción o URL...",
+      "placeholder": "Buscar por nombre o URL...",
       "clearFilters": "Limpiar filtros"
     },
     "filters": {

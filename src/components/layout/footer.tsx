@@ -10,15 +10,18 @@ export function Footer() {
 
   return (
     <footer
-      className="bg-background/80 backdrop-blur-md z-50 border-t border-border/50 shadow-sm"
+      className="w-full 
+                 bg-background/80 backdrop-blur-md 
+                 border-t border-border/50 
+                 shadow-sm transition-all duration-300"
       role="contentinfo"
       aria-label={t("ariaLabel")}
     >
-      <div className="w-full max-w-screen-3xl mx-auto py-4 sm:py-4 px-3 xs:px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20">
+      <div className="container mx-auto px-4 sm:px-0 lg:px-8 py-8">
         <div
-          className="flex items-center justify-between
-                        px-3 xs:px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20
-                        py-2 sm:py-2.5 md:py-3"
+          className="flex flex-col-reverse items-center gap-6 md:flex-row md:justify-between md:items-center
+                     px-3 xs:px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20
+                     py-2 sm:py-2.5 md:py-3"
         >
           <span className="text-xs sm:text-sm text-muted-foreground flex items-center gap-1 text-center md:text-left">
             © <Timestamp /> {t("madeWith")}{" "}
